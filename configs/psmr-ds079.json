@@ -1,0 +1,172 @@
+{
+  "fileNameFormat": "DTVYL001_DS079.dat",
+  "functionId": "DS079",
+  "moduleId": "DS079",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_TY_NTY_CONTS",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "Project Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": true,
+      "key": "PROJECT_CODE"
+    },
+    {
+      "id": 2,
+      "detail": "Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "PART_NO"
+    },
+    {
+      "id": 3,
+      "detail": "Supplier Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": true,
+      "key": "SUPPLIER_CODE"
+    },
+    {
+      "id": 4,
+      "detail": "NAMC Code",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "NAMC_CODE"
+    },
+    {
+      "id": 5,
+      "detail": "RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "RFQ_CAT"
+    },
+    {
+      "id": 6,
+      "detail": "RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "RFQ_NO"
+    },
+    {
+      "id": 7,
+      "detail": "Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "REV_NO"
+    },
+    {
+      "id": 8,
+      "detail": "Letter Sequence Number",
+      "type": "CHAR",
+      "length": 15,
+      "required": true,
+      "key": "LETTER_SEQUENCE_NO"
+    },
+    {
+      "id": 9,
+      "detail": "Buyer Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "BUYER_CODE"
+    },
+    {
+      "id": 10,
+      "detail": "Sales Contact Person Code",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "SALES_CONTACT_PERSON_CODE"
+    },
+    {
+      "id": 11,
+      "detail": "Supplier Interface Method",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "SUPPLIER_INTERFACE_METHOD"
+    },
+    {
+      "id": 12,
+      "detail": "Supplier Selection Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "SUPPLIER_SELECTION_F"
+    },
+    {
+      "id": 13,
+      "detail": "Sourcing Approval Number",
+      "type": "CHAR",
+      "length": 9,
+      "required": false,
+      "key": "SRC_APPROVAL_NO"
+    },
+    {
+      "id": 14,
+      "detail": "Sourcing Approval Revision Number",
+      "type": "NUM",
+      "length": 3,
+      "required": false,
+      "key": "SRC_APPROVAL_REV_NO"
+    },
+    {
+      "id": 15,
+      "detail": "Supplier Code4",
+      "type": "CHAR",
+      "length": 4,
+      "required": false,
+      "key": "SUPPLIER_CODE4"
+    },
+    {
+      "id": 16,
+      "detail": "Trigger Data Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "TRIGGER_DATA_CAT"
+    },
+    {
+      "id": 17,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 18,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 19,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 20,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

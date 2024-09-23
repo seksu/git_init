@@ -1,0 +1,14 @@
+[
+    {
+      "tableId": "ES001",
+      "tableName": "TB_M_PO",
+      "ifFileName": "GBF3TW66.DTW66001.X0000001",
+      "className": "th.co.toyota.psmr.domain.PurchaseOrder",
+      "classPk": "th.co.toyota.psmr.domain.PurchaseOrderPk",
+      "detail": "Price Master Interface",
+      "length": 948,
+      "configFile":  "psmr-es001.json",
+      "headerFlag": true,
+      "footerFlag": true
+    }
+]

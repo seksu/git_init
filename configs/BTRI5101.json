@@ -1,0 +1,154 @@
+{
+    "fileNameFormat" : "^(BF90310|BF90311)_.*$",
+    "functionId": "BTRI5101",
+    "moduleId": "BTRI5",
+    "fromSystem": "PPMS",
+    "stagingTable":"TB_S_PART_RECEIVE",
+    "type":"fixlength",
+    "header":{
+      "required":true
+    },
+    "footer":{
+      "required":true,
+      "format":"#T#"
+    },
+    "detailCount" : 323,
+    "detailRowIndex": 2,
+    "detail" : [
+      {
+        "columnFrom" : 9,
+        "columnTo" : 12,
+        "key": "supplierCd"
+      },
+      {
+        "columnFrom" : 14,
+        "columnTo" : 14,
+        "key": "supplierPlantCd"
+      },
+      {
+        "columnFrom" : 16,
+        "columnTo" : 16,
+        "key": "customerPlantCd"
+      },
+      {
+        "columnFrom" : 18,
+        "columnTo" : 19,
+        "key": "customerDockCd"
+      },
+      {
+        "columnFrom" : 21,
+        "columnTo" : 21,
+        "key": "orderType"
+      },
+      {
+        "columnFrom" : 23,
+        "columnTo" : 37,
+        "key": "pdsNo"
+      },
+      {
+        "columnFrom" : 39,
+        "columnTo" : 46,
+        "key": "receiveDt"
+      },
+      {
+        "columnFrom" : 48,
+        "columnTo" : 59,
+        "key": "partNo"
+      },
+      {
+        "columnFrom" : 61,
+        "columnTo" : 68,
+        "key": "seqDt"
+      },
+      {
+        "columnFrom" : 70,
+        "columnTo" : 79,
+        "key": "seqNo"
+      },
+      {
+        "columnFrom" : 81,
+        "columnTo" : 87,
+        "key": "receiveQty"
+      },
+      {
+        "columnFrom" : 119,
+        "columnTo" : 119,
+        "key": "priceFlag"
+      },
+      {
+        "columnFrom" : 121,
+        "columnTo" : 121,
+        "key": "supplierType"
+      },
+      {
+        "columnFrom" : 123,
+        "columnTo" : 123,
+        "key": "pdsPartialState"
+      },
+      {
+        "columnFrom" : 125,
+        "columnTo" : 125,
+        "key": "whtFlag"
+      },
+      {
+        "columnFrom" : 127,
+        "columnTo" : 127,
+        "key": "partCategoryCd"
+      },
+      {
+        "columnFrom" : 129,
+        "columnTo" : 131,
+        "key": "packingSpec"
+      },
+      {
+        "columnFrom" : 133,
+        "columnTo" : 133,
+        "key": "reasonCd"
+      },
+      {
+        "columnFrom" : 139,
+        "columnTo" : 148,
+        "key": "costCenter"
+      },
+      {
+        "columnFrom" : 150,
+        "columnTo" : 161,
+        "key": "budgetNo"
+      },
+      {
+        "columnFrom" : 163,
+        "columnTo" : 179,
+        "key": "projectNo"
+      },
+      {
+        "columnFrom" : 181,
+        "columnTo" : 181,
+        "key": "pdsNoRetroFlag"
+      },
+      {
+        "columnFrom" : 183,
+        "columnTo" : 192,
+        "key": "reqNo"
+      },
+      {
+        "columnFrom" : 194,
+        "columnTo" : 195,
+        "key": "revNo"
+      },
+      {
+        "columnFrom" : 197,
+        "columnTo" : 220,
+        "key": "coa"
+      },
+      {
+        "columnFrom" : 222,
+        "columnTo" : 271,
+        "key": "purposeOfOrdering"
+      },
+      {
+        "columnFrom" : 184,
+        "columnTo" : 192,
+        "key": "tiNo"
+      }
+    ]
+}

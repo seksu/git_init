@@ -1,0 +1,655 @@
+{
+  "fileNameFormat": "DTVYL001_AS030.dat",
+  "functionId": "AS030",
+  "moduleId": "AS030",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_COST_PLAN_PARTS",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "PART_NO"
+    },
+    {
+      "id": 2,
+      "detail": "Project Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": true,
+      "key": "PROJECT_CODE"
+    },
+    {
+      "id": 3,
+      "detail": "CFS Number",
+      "type": "CHAR",
+      "length": 8,
+      "required": true,
+      "key": "CFS_NO"
+    },
+    {
+      "id": 4,
+      "detail": "Cost Planning Phase",
+      "type": "CHAR",
+      "length": 1,
+      "required": true,
+      "key": "COST_PLAN_PHASE"
+    },
+    {
+      "id": 5,
+      "detail": "Cost Planning Step",
+      "type": "CHAR",
+      "length": 3,
+      "required": true,
+      "key": "COST_PLAN_STEP"
+    },
+    {
+      "id": 6,
+      "detail": "Cost Planning Step Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "COST_PLAN_STEP_REV_NO"
+    },
+    {
+      "id": 7,
+      "detail": "Previous CFS Number",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "PREVIOUS_CFS_NO"
+    },
+    {
+      "id": 8,
+      "detail": "Previous Cost Planning Phase",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "PREVIOUS_COST_PLAN_PHASE"
+    },
+    {
+      "id": 9,
+      "detail": "Previous Cost Planning Step",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "PREVIOUS_COST_PLAN_STEP"
+    },
+    {
+      "id": 10,
+      "detail": "Previous Currency Code",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "PREVIOUS_CURRENCY_CODE"
+    },
+    {
+      "id": 11,
+      "detail": "Previous Rate",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "PREVIOUS_RATE"
+    },
+    {
+      "id": 12,
+      "detail": "Workflow List Code",
+      "type": "CHAR",
+      "length": 7,
+      "required": false,
+      "key": "WORKFLOW_LIST_CODE"
+    },
+    {
+      "id": 13,
+      "detail": "Work No",
+      "type": "CHAR",
+      "length": 64,
+      "required": false,
+      "key": "WORK_NO"
+    },
+    {
+      "id": 14,
+      "detail": "Buyer Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "BUYER_CODE"
+    },
+    {
+      "id": 15,
+      "detail": "Local Commodity Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "LOCAL_COMMODITY_CODE"
+    },
+    {
+      "id": 16,
+      "detail": "Trigger Data Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "TRIGGER_DATA_CAT"
+    },
+    {
+      "id": 17,
+      "detail": "Trigger type",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "TRIGGER_type"
+    },
+    {
+      "id": 18,
+      "detail": "Part type",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "PART_type"
+    },
+    {
+      "id": 19,
+      "detail": "Manual Trigger Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "MANUAL_TRIGGER_F"
+    },
+    {
+      "id": 20,
+      "detail": "Supplier Interface Method",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "SUPPLIER_INTERFACE_METHOD"
+    },
+    {
+      "id": 21,
+      "detail": "Due Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "DUE_DATE"
+    },
+    {
+      "id": 22,
+      "detail": "CP Category3",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "CP_CATEGORY3"
+    },
+    {
+      "id": 23,
+      "detail": "Target Supplier",
+      "type": "CHAR",
+      "length": 18,
+      "required": false,
+      "key": "TARGET_SUPPLIER"
+    },
+    {
+      "id": 24,
+      "detail": "Current Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "CURRENT_PART_NO"
+    },
+    {
+      "id": 25,
+      "detail": "Current First Piece Price w Tooling",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_FIRST_PIECE_PRC_W_TOOL"
+    },
+    {
+      "id": 26,
+      "detail": "Current First Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_FIRST_PIECE_PRC"
+    },
+    {
+      "id": 27,
+      "detail": "Current First Amort Tooling",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_FIRST_AMORT_TOOL"
+    },
+    {
+      "id": 28,
+      "detail": "Current First Tooling Investment",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_FIRST_TOOL_INVEST"
+    },
+    {
+      "id": 29,
+      "detail": "Current Second Piece Price w Tooling",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_SEC_PIECE_PRC_W_TOOL"
+    },
+    {
+      "id": 30,
+      "detail": "Current Second Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_SEC_PIECE_PRC"
+    },
+    {
+      "id": 31,
+      "detail": "Current Second Amort Tooling",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_SEC_AMORT_TOOL"
+    },
+    {
+      "id": 32,
+      "detail": "Current Second Tooling Investment",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_SEC_TOOL_INVEST"
+    },
+    {
+      "id": 33,
+      "detail": "Current Supplier Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "CURRENT_SUPPLIER_CODE"
+    },
+    {
+      "id": 34,
+      "detail": "Current Quantity Vehicle",
+      "type": "NUM",
+      "length": 4,
+      "required": false,
+      "key": "CURRENT_QUANTITY_VEHICLE"
+    },
+    {
+      "id": 35,
+      "detail": "Current Volume Month",
+      "type": "NUM",
+      "length": 9,
+      "required": false,
+      "key": "CURRENT_VOLUME_MONTH"
+    },
+    {
+      "id": 36,
+      "detail": "Current Make or Buy",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "CURRENT_MAKE_OR_BUY"
+    },
+    {
+      "id": 37,
+      "detail": "Current Imp Loc",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "CURRENT_IMP_LOC"
+    },
+    {
+      "id": 38,
+      "detail": "Current Currency",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "CURRENT_CURRENCY"
+    },
+    {
+      "id": 39,
+      "detail": "Current Rate",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "CURRENT_RATE"
+    },
+    {
+      "id": 40,
+      "detail": "Current Assembly Plant",
+      "type": "CHAR",
+      "length": 6,
+      "required": false,
+      "key": "CURRENT_ASSEMBLY_PLANT"
+    },
+    {
+      "id": 41,
+      "detail": "Current Katashiki",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "CURRENT_KATASHIKI"
+    },
+    {
+      "id": 42,
+      "detail": "Follow Model",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "FOLLOW_MODEL"
+    },
+    {
+      "id": 43,
+      "detail": "Engine",
+      "type": "CHAR",
+      "length": 6,
+      "required": false,
+      "key": "ENGINE"
+    },
+    {
+      "id": 44,
+      "detail": "Grade",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "GRADE"
+    },
+    {
+      "id": 45,
+      "detail": "CP Time",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "CP_TIME"
+    },
+    {
+      "id": 46,
+      "detail": "Delivery Cntry",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "DELIVERY_CNTRY"
+    },
+    {
+      "id": 47,
+      "detail": "Transmission",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "TRANSMISSION"
+    },
+    {
+      "id": 48,
+      "detail": "Assembly Plant",
+      "type": "CHAR",
+      "length": 6,
+      "required": false,
+      "key": "ASSEMBLY_PLANT"
+    },
+    {
+      "id": 49,
+      "detail": "Body",
+      "type": "CHAR",
+      "length": 4,
+      "required": false,
+      "key": "BODY"
+    },
+    {
+      "id": 50,
+      "detail": "Handle",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "HANDLE"
+    },
+    {
+      "id": 51,
+      "detail": "SOP Time",
+      "type": "CHAR",
+      "length": 6,
+      "required": false,
+      "key": "SOP_TIME"
+    },
+    {
+      "id": 52,
+      "detail": "Currency Code",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "CURRENCY_CODE"
+    },
+    {
+      "id": 53,
+      "detail": "Rate",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "RATE"
+    },
+    {
+      "id": 54,
+      "detail": "GENKI Name",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "GENKI_NAME"
+    },
+    {
+      "id": 55,
+      "detail": "GENKI Phone",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "GENKI_PHONE"
+    },
+    {
+      "id": 56,
+      "detail": "GENKI E mail",
+      "type": "CHAR",
+      "length": 80,
+      "required": false,
+      "key": "GENKI_E_MAIL"
+    },
+    {
+      "id": 57,
+      "detail": "Eng Dept",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "ENG_DEPT"
+    },
+    {
+      "id": 58,
+      "detail": "Eng Name",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "ENG_NAME"
+    },
+    {
+      "id": 59,
+      "detail": "Eng Phone",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "ENG_PHONE"
+    },
+    {
+      "id": 60,
+      "detail": "Eng E mail",
+      "type": "CHAR",
+      "length": 80,
+      "required": false,
+      "key": "ENG_E_MAIL"
+    },
+    {
+      "id": 61,
+      "detail": "CL per Eng Comment",
+      "type": "CHAR",
+      "length": 200,
+      "required": false,
+      "key": "CL_PER_ENG_COMMENT"
+    },
+    {
+      "id": 62,
+      "detail": "Reissue Availabel",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "REISSUE_AVAILABEL"
+    },
+    {
+      "id": 63,
+      "detail": "Reissue Comment",
+      "type": "CHAR",
+      "length": 90,
+      "required": false,
+      "key": "REISSUE_COMMENT"
+    },
+    {
+      "id": 64,
+      "detail": "Trigger Received Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "TRIGGER_RECEIVED_DATE"
+    },
+    {
+      "id": 65,
+      "detail": "System Assign Due Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "SYSTEM_ASSIGN_DUE_DATE"
+    },
+    {
+      "id": 66,
+      "detail": "Move to Approval Prep Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "MOVE_TO_APPROVAL_PREP_F"
+    },
+    {
+      "id": 67,
+      "detail": "Approval with RFQ Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "APPROVAL_WITH_RFQ_F"
+    },
+    {
+      "id": 68,
+      "detail": "Cost Planning Approval Number",
+      "type": "CHAR",
+      "length": 9,
+      "required": false,
+      "key": "COST_PLAN_APPROVAL_NO"
+    },
+    {
+      "id": 69,
+      "detail": "Cost Planning Approval Revision Number",
+      "type": "NUM",
+      "length": 3,
+      "required": false,
+      "key": "COST_PLAN_APPROVAL_REV_NO"
+    },
+    {
+      "id": 70,
+      "detail": "Trigger Status Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "TRIGGER_STATUS_CAT"
+    },
+    {
+      "id": 71,
+      "detail": "Part Release Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "PART_RELEASE_DATE"
+    },
+    {
+      "id": 72,
+      "detail": "Issued Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "ISSUED_DATE"
+    },
+    {
+      "id": 73,
+      "detail": "Received Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "RECEIVED_DATE"
+    },
+    {
+      "id": 74,
+      "detail": "Buyer Check Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "BUYER_CHECK_DATE"
+    },
+    {
+      "id": 75,
+      "detail": "Buyer Approval Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "BUYER_APPROVAL_DATE"
+    },
+    {
+      "id": 76,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 77,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 78,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 79,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

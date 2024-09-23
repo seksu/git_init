@@ -1,0 +1,860 @@
+{
+  "fileNameFormat": "DTVYL001_DS551.dat",
+  "functionId": "DS551",
+  "moduleId": "DS551",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_MP_RFQ",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "RFQ_CAT"
+    },
+    {
+      "id": 2,
+      "detail": "RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "RFQ_NO"
+    },
+    {
+      "id": 3,
+      "detail": "Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "REV_NO"
+    },
+    {
+      "id": 4,
+      "detail": "Project Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "PROJECT_CODE"
+    },
+    {
+      "id": 5,
+      "detail": "Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "PART_NO"
+    },
+    {
+      "id": 6,
+      "detail": "Supplier Code4",
+      "type": "CHAR",
+      "length": 4,
+      "required": false,
+      "key": "SUPPLIER_CODE4"
+    },
+    {
+      "id": 7,
+      "detail": "ECI Number",
+      "type": "CHAR",
+      "length": 10,
+      "required": false,
+      "key": "ECI_NO"
+    },
+    {
+      "id": 8,
+      "detail": "Issue Reason",
+      "type": "CHAR",
+      "length": 2,
+      "required": false,
+      "key": "ISSUE_REASON"
+    },
+    {
+      "id": 9,
+      "detail": "Total Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOTAL_PIECE_PRC"
+    },
+    {
+      "id": 10,
+      "detail": "Total Tooling Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOTAL_TOOL_PRC"
+    },
+    {
+      "id": 11,
+      "detail": "Total RFQ Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOTAL_RFQ_COST"
+    },
+    {
+      "id": 12,
+      "detail": "Currency Code",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "CURRENCY_CODE"
+    },
+    {
+      "id": 13,
+      "detail": "Retro Total Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "RETRO_TOTAL_PRC"
+    },
+    {
+      "id": 14,
+      "detail": "Ref Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "REF_PART_NO"
+    },
+    {
+      "id": 15,
+      "detail": "Ref Project Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "REF_PROJECT_CODE"
+    },
+    {
+      "id": 16,
+      "detail": "Ref Supplier Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "REF_SUPPLIER_CODE"
+    },
+    {
+      "id": 17,
+      "detail": "Ref NAMC Code",
+      "type": "CHAR",
+      "length": 2,
+      "required": false,
+      "key": "REF_NAMC_CODE"
+    },
+    {
+      "id": 18,
+      "detail": "Ref RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": false,
+      "key": "REF_RFQ_CAT"
+    },
+    {
+      "id": 19,
+      "detail": "Ref RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "REF_RFQ_NO"
+    },
+    {
+      "id": 20,
+      "detail": "Ref RFQ Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": false,
+      "key": "REF_RFQ_REV_NO"
+    },
+    {
+      "id": 21,
+      "detail": "Ref Currency Code",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "REF_CURRENCY_CODE"
+    },
+    {
+      "id": 22,
+      "detail": "Ref Exchange Rate",
+      "type": "NUM",
+      "precision": 5,
+      "length": 15,
+      "required": false,
+      "key": "REF_EXCHANGE_RATE"
+    },
+    {
+      "id": 23,
+      "detail": "Ref Tooling Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "REF_TOOL_PART_NO"
+    },
+    {
+      "id": 24,
+      "detail": "Ref Tooling Project Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "REF_TOOL_PROJECT_CODE"
+    },
+    {
+      "id": 25,
+      "detail": "Ref Tooling Supplier Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "REF_TOOL_SUPPLIER_CODE"
+    },
+    {
+      "id": 26,
+      "detail": "Ref Tooling NAMC Code",
+      "type": "CHAR",
+      "length": 2,
+      "required": false,
+      "key": "REF_TOOL_NAMC_CODE"
+    },
+    {
+      "id": 27,
+      "detail": "Ref Tooling RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": false,
+      "key": "REF_TOOL_RFQ_CAT"
+    },
+    {
+      "id": 28,
+      "detail": "Ref Tooling RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "REF_TOOL_RFQ_NO"
+    },
+    {
+      "id": 29,
+      "detail": "Ref Tooling RFQ Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": false,
+      "key": "REF_TOOL_RFQ_REV_NO"
+    },
+    {
+      "id": 30,
+      "detail": "Ref Tooling Currency Code",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "REF_TOOL_CURRENCY_CODE"
+    },
+    {
+      "id": 31,
+      "detail": "Ref Tooling Exchange Rate",
+      "type": "NUM",
+      "precision": 5,
+      "length": 15,
+      "required": false,
+      "key": "REF_TOOL_EXCHANGE_RATE"
+    },
+    {
+      "id": 32,
+      "detail": "RFQ Effective from",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "RFQ_EFFECTIVE_FROM"
+    },
+    {
+      "id": 33,
+      "detail": "RFQ Effective to",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "RFQ_EFFECTIVE_TO"
+    },
+    {
+      "id": 34,
+      "detail": "Supplier Completion Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "SUPPLIER_COMPLETION_DATE"
+    },
+    {
+      "id": 35,
+      "detail": "Economics Base",
+      "type": "CHAR",
+      "length": 6,
+      "required": false,
+      "key": "ECONOMICS_BASE"
+    },
+    {
+      "id": 36,
+      "detail": "Prototype Leadtime",
+      "type": "NUM",
+      "length": 3,
+      "required": false,
+      "key": "PROTOtype_LEADTIME"
+    },
+    {
+      "id": 37,
+      "detail": "Production Leadtime",
+      "type": "NUM",
+      "length": 3,
+      "required": false,
+      "key": "PRODUCT_LEADTIME"
+    },
+    {
+      "id": 38,
+      "detail": "Production Location Manufacturing",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "PRODUCT_LOCATION_MANUFAC"
+    },
+    {
+      "id": 39,
+      "detail": "Production Location Shipping",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "PRODUCT_LOCATION_SHIPPING"
+    },
+    {
+      "id": 40,
+      "detail": "Prototype Costs Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "PROTOtype_COSTS_PIECE_PRC"
+    },
+    {
+      "id": 41,
+      "detail": "Prototype Costs Tooling",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "PROTOtype_COSTS_TOOL"
+    },
+    {
+      "id": 42,
+      "detail": "Prototype Location Manufacturing",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "PROTOtype_LOCATION_MANUFAC"
+    },
+    {
+      "id": 43,
+      "detail": "Prototype Location Shipping",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "PROTOtype_LOCATION_SHIPPING"
+    },
+    {
+      "id": 44,
+      "detail": "Design Level",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "DESIGN_LEVEL"
+    },
+    {
+      "id": 45,
+      "detail": "Implementation Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "IMPLEMENTATION_DATE"
+    },
+    {
+      "id": 46,
+      "detail": "Ref Part ECI Number",
+      "type": "CHAR",
+      "length": 10,
+      "required": false,
+      "key": "REF_PART_ECI_NO"
+    },
+    {
+      "id": 47,
+      "detail": "Ref Part Design Level",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "REF_PART_DESIGN_LEVEL"
+    },
+    {
+      "id": 48,
+      "detail": "Ref Part Implementation Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "REF_PART_IMPLEMENTATION_DATE"
+    },
+    {
+      "id": 49,
+      "detail": "Ref Approval Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": false,
+      "key": "REF_APPROVAL_REV_NO"
+    },
+    {
+      "id": 50,
+      "detail": "Annual Volume",
+      "type": "NUM",
+      "length": 9,
+      "required": false,
+      "key": "ANNUAL_VOLUME"
+    },
+    {
+      "id": 51,
+      "detail": "Per Vehicle Pieces",
+      "type": "NUM",
+      "length": 4,
+      "required": false,
+      "key": "PER_VEHICLE_PIECES"
+    },
+    {
+      "id": 52,
+      "detail": "Vehicles per Month",
+      "type": "NUM",
+      "length": 6,
+      "required": false,
+      "key": "VEHICLES_PER_MONTH"
+    },
+    {
+      "id": 53,
+      "detail": "Due Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "DUE_DATE"
+    },
+    {
+      "id": 54,
+      "detail": "Issued Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "ISSUED_DATE"
+    },
+    {
+      "id": 55,
+      "detail": "Received Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "RECEIVED_DATE"
+    },
+    {
+      "id": 56,
+      "detail": "Buyer Check Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "BUYER_CHECK_DATE"
+    },
+    {
+      "id": 57,
+      "detail": "Buyer Approval Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "BUYER_APPROVAL_DATE"
+    },
+    {
+      "id": 58,
+      "detail": "Last Approval Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "LAST_APPROVAL_DATE"
+    },
+    {
+      "id": 59,
+      "detail": "Part type",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "PART_type"
+    },
+    {
+      "id": 60,
+      "detail": "Summary Input Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "SUMMARY_INPUT_F"
+    },
+    {
+      "id": 61,
+      "detail": "Sales Contact Person Code",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "SALES_CONTACT_PERSON_CODE"
+    },
+    {
+      "id": 62,
+      "detail": "Piece Price Variance",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "PIECE_PRC_VARIANCE"
+    },
+    {
+      "id": 63,
+      "detail": "Piece Price Yearly Impact",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "PIECE_PRC_YEARLY_IMPACT"
+    },
+    {
+      "id": 64,
+      "detail": "Tooling Variance",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOOL_VARIANCE"
+    },
+    {
+      "id": 65,
+      "detail": "Tooling Yearly Impact",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOOL_YEARLY_IMPACT"
+    },
+    {
+      "id": 66,
+      "detail": "Transportation Variance",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TRANS_VARIANCE"
+    },
+    {
+      "id": 67,
+      "detail": "Transportation Yearly Impact",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TRANS_YEARLY_IMPACT"
+    },
+    {
+      "id": 68,
+      "detail": "Expendable PKG Variance",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "EXPENDABLE_PKG_VARIANCE"
+    },
+    {
+      "id": 69,
+      "detail": "Expendable PKG Yearly Impact",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "EXPENDABLE_PKG_YEARLY_IMPACT"
+    },
+    {
+      "id": 70,
+      "detail": "Ref Total Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_TOTAL_PRC"
+    },
+    {
+      "id": 71,
+      "detail": "New Total Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NEW_TOTAL_PRC"
+    },
+    {
+      "id": 72,
+      "detail": "Total Variance",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOTAL_VARIANCE"
+    },
+    {
+      "id": 73,
+      "detail": "Total Yearly Impact",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOTAL_YEARLY_IMPACT"
+    },
+    {
+      "id": 74,
+      "detail": "Piece Price Achievement",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "PIECE_PRC_ACHIEV"
+    },
+    {
+      "id": 75,
+      "detail": "Actual Tooling per Piece",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "ACTUAL_TOOL_PER_PIECE"
+    },
+    {
+      "id": 76,
+      "detail": "Tooling per Piece Achievement",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOOL_PER_PIECE_ACHIEV"
+    },
+    {
+      "id": 77,
+      "detail": "Actual Total Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "ACTUAL_TOTAL_PRC"
+    },
+    {
+      "id": 78,
+      "detail": "Total Price Achievement",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOTAL_PRC_ACHIEV"
+    },
+    {
+      "id": 79,
+      "detail": "Total Unit Var Rate",
+      "type": "NUM",
+      "precision": 2,
+      "length": 6,
+      "required": false,
+      "key": "TOTAL_UNIT_VAR_RATE"
+    },
+    {
+      "id": 80,
+      "detail": "Copy Approval Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "COPY_APPROVAL_F"
+    },
+    {
+      "id": 81,
+      "detail": "Should be sourced Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "SHOULD_BE_SOURCED_F"
+    },
+    {
+      "id": 82,
+      "detail": "VE Proposal Attached Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "VE_PROPOSAL_ATTACH_F"
+    },
+    {
+      "id": 83,
+      "detail": "CFS Number",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "CFS_NO"
+    },
+    {
+      "id": 84,
+      "detail": "Cost Planning Phase",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "COST_PLAN_PHASE"
+    },
+    {
+      "id": 85,
+      "detail": "Cost Planning Step Revision",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "COST_PLAN_STEP_REV"
+    },
+    {
+      "id": 86,
+      "detail": "Cost Planning Step Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": false,
+      "key": "COST_PLAN_STEP_REV_NO"
+    },
+    {
+      "id": 87,
+      "detail": "CFS Attached Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "CFS_ATTACH_F"
+    },
+    {
+      "id": 88,
+      "detail": "Cost Planning Received Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "COST_PLAN_RECEIVED_DATE"
+    },
+    {
+      "id": 89,
+      "detail": "Cost Planning Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "COST_PLAN_PIECE_PRC"
+    },
+    {
+      "id": 90,
+      "detail": "Cost Planning Tooling per Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "COST_PLAN_TOOL_PER_PIECE_PRC"
+    },
+    {
+      "id": 91,
+      "detail": "Cost Planning Tooling Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "COST_PLAN_TOOL_PRC"
+    },
+    {
+      "id": 92,
+      "detail": "Purchasing Target Input Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "BUY_TARGET_INPUT_DATE"
+    },
+    {
+      "id": 93,
+      "detail": "Purchasing Target Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "BUY_TARGET_PIECE_PRC"
+    },
+    {
+      "id": 94,
+      "detail": "Purchasing Target Tooling per Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "BUY_TARGET_TOOL_PER_PIECE_PRC"
+    },
+    {
+      "id": 95,
+      "detail": "Purchasing Target Tooling Price",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "BUY_TARGET_TOOL_PRC"
+    },
+    {
+      "id": 96,
+      "detail": "Purchasing Target Input Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "BUY_TARGET_INPUT_F"
+    },
+    {
+      "id": 97,
+      "detail": "Display Target Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "DISPLAY_TARGET_F"
+    },
+    {
+      "id": 98,
+      "detail": "RFQ with DS CSP Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "RFQ_WITH_DS_CSP_F"
+    },
+    {
+      "id": 99,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 100,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 101,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 102,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

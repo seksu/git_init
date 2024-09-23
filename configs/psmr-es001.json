@@ -1,0 +1,446 @@
+{
+  "fileNameFormat": "DTVYL001_es001.dat",
+  "functionId": "es001",
+  "moduleId": "es001",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_PO",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "HANDLING_SEQ_NO",
+      "type": "CHAR",
+      "length": 15,
+      "required": true,
+      "key": "HANDLING_SEQ_NO"
+    },
+    {
+      "id": 2,
+      "detail": "PURCHASING_ITEM",
+      "type": "CHAR",
+      "length": 1,
+      "required": true,
+      "key": "PURCHASING_ITEM"
+    },
+    {
+      "id": 3,
+      "detail": "PARTS_CAT",
+      "type": "CHAR",
+      "length": 1,
+      "required": true,
+      "key": "PARTS_CAT"
+    },
+    {
+      "id": 4,
+      "detail": "PART_NO",
+      "type": "CHAR",
+      "length": 10,
+      "required": true,
+      "key": "PART_NO"
+    },
+    {
+      "id": 5,
+      "detail": "PART_NAME",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "PART_NAME"
+    },
+    {
+      "id": 6,
+      "detail": "NAMC_CODE",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "NAMC_CODE"
+    },
+    {
+      "id": 7,
+      "detail": "SUPPLIER_CODE",
+      "type": "CHAR",
+      "length": 4,
+      "required": true,
+      "key": "SUPPLIER_CODE"
+    },
+    {
+      "id": 8,
+      "detail": "SUPPLIER_PLANT_CODE",
+      "type": "CHAR",
+      "length": 1,
+      "required": true,
+      "key": "SUPPLIER_PLANT_CODE"
+    },
+    {
+      "id": 9,
+      "detail": "DOCK_CODE",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "DOCK_CODE"
+    },
+    {
+      "id": 10,
+      "detail": "COLOUR_CODE",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "COLOUR_CODE"
+    },
+    {
+      "id": 11,
+      "detail": "LOCAL_COMMODITY_CODE",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "LOCAL_COMMODITY_CODE"
+    },
+    {
+      "id": 12,
+      "detail": "BUYER_CODE",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "BUYER_CODE"
+    },
+    {
+      "id": 13,
+      "detail": "EMPLOYEE_NAME",
+      "type": "CHAR",
+      "length": 30,
+      "required": false,
+      "key": "EMPLOYEE_NAME"
+    },
+    {
+      "id": 14,
+      "detail": "UNIT_OF_MEASURE",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UNIT_OF_MEASURE"
+    },
+    {
+      "id": 15,
+      "detail": "CLASSIFICATION",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "CLASSIFICATION"
+    },
+    {
+      "id": 16,
+      "detail": "MINOR_CODE",
+      "type": "CHAR",
+      "length": 2,
+      "required": false,
+      "key": "MINOR_CODE"
+    },
+    {
+      "id": 17,
+      "detail": "UNIT_PRICE",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "UNIT_PRICE"
+    },
+    {
+      "id": 18,
+      "detail": "SENT_PIECE_PO_DATE",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "SENT_PIECE_PO_DATE"
+    },
+    {
+      "id": 19,
+      "detail": "EFFECTIVE_FROM_DATE",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "EFFECTIVE_FROM_DATE"
+    },
+    {
+      "id": 20,
+      "detail": "EFFECTIVE_TO_DATE",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "EFFECTIVE_TO_DATE"
+    },
+    {
+      "id": 21,
+      "detail": "CURRENCY_CAT",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "CURRENCY_CAT"
+    },
+    {
+      "id": 22,
+      "detail": "PRICING_REASON_CODE",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "PRICING_REASON_CODE"
+    },
+    {
+      "id": 23,
+      "detail": "DETAIL_PRICE_CAT",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "DETAIL_PRICE_CAT"
+    },
+    {
+      "id": 24,
+      "detail": "DETAIL_PRICE_CODE",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "DETAIL_PRICE_CODE"
+    },
+    {
+      "id": 25,
+      "detail": "DETAIL_PRICE",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "DETAIL_PRICE"
+    },
+    {
+      "id": 26,
+      "detail": "DETAIL_COMMENT",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "DETAIL_COMMENT"
+    },
+    {
+      "id": 27,
+      "detail": "ECI_NO",
+      "type": "CHAR",
+      "length": 9,
+      "required": false,
+      "key": "ECI_NO"
+    },
+    {
+      "id": 28,
+      "detail": "PO_NO",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "PO_NO"
+    },
+    {
+      "id": 29,
+      "detail": "PO_REVISION_NO",
+      "type": "CHAR",
+      "length": 4,
+      "required": false,
+      "key": "PO_REVISION_NO"
+    },
+    {
+      "id": 30,
+      "detail": "PO_COMMENTS",
+      "type": "CHAR",
+      "length": 255,
+      "required": false,
+      "key": "PO_COMMENTS"
+    },
+    {
+      "id": 31,
+      "detail": "PAYMENT_TERMS",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "PAYMENT_TERMS"
+    },
+    {
+      "id": 32,
+      "detail": "FREIGHT_TERMS_CAT",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "FREIGHT_TERMS_CAT"
+    },
+    {
+      "id": 33,
+      "detail": "FOB_CAT",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "FOB_CAT"
+    },
+    {
+      "id": 34,
+      "detail": "SHIP_VIA_CAT",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "SHIP_VIA_CAT"
+    },
+    {
+      "id": 35,
+      "detail": "TAX_STATUS",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "TAX_STATUS"
+    },
+    {
+      "id": 36,
+      "detail": "PERSON_CODE",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "PERSON_CODE"
+    },
+    {
+      "id": 37,
+      "detail": "PERSON_GENDER_CAT",
+      "type": "CHAR",
+      "length": 6,
+      "required": false,
+      "key": "PERSON_GENDER_CAT"
+    },
+    {
+      "id": 38,
+      "detail": "PERSON_FIRST_NAME",
+      "type": "CHAR",
+      "length": 15,
+      "required": false,
+      "key": "PERSON_FIRST_NAME"
+    },
+    {
+      "id": 39,
+      "detail": "PERSON_FAMILY_NAME",
+      "type": "CHAR",
+      "length": 15,
+      "required": false,
+      "key": "PERSON_FAMILY_NAME"
+    },
+    {
+      "id": 40,
+      "detail": "SALES_CONTACT_ADDRESS_1",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "SALES_CONTACT_ADDRESS_1"
+    },
+    {
+      "id": 41,
+      "detail": "SALES_CONTACT_ADDRESS_2",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "SALES_CONTACT_ADDRESS_2"
+    },
+    {
+      "id": 42,
+      "detail": "SALES_CONTACT_ADDRESS_3",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "SALES_CONTACT_ADDRESS_3"
+    },
+    {
+      "id": 43,
+      "detail": "SALES_CONTACT_CITY",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "SALES_CONTACT_CITY"
+    },
+    {
+      "id": 44,
+      "detail": "SALES_CONTACT_STATE",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "SALES_CONTACT_STATE"
+    },
+    {
+      "id": 45,
+      "detail": "SALES_CONTACT_ZIP",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "SALES_CONTACT_ZIP"
+    },
+    {
+      "id": 46,
+      "detail": "SALES_CONTACT_COUNTRY",
+      "type": "CHAR",
+      "length": 25,
+      "required": false,
+      "key": "SALES_CONTACT_COUNTRY"
+    },
+    {
+      "id": 47,
+      "detail": "SUPPLIER_NAME",
+      "type": "CHAR",
+      "length": 30,
+      "required": false,
+      "key": "SUPPLIER_NAME"
+    },
+    {
+      "id": 48,
+      "detail": "SUPPLIER_NAME_2",
+      "type": "CHAR",
+      "length": 20,
+      "required": false,
+      "key": "SUPPLIER_NAME_2"
+    },
+    {
+      "id": 49,
+      "detail": "SUPPLIER_INTERFACE_METHOD",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "SUPPLIER_INTERFACE_METHOD"
+    },
+    {
+      "id": 50,
+      "detail": "TRANSMISSION_STATUS_CAT",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "TRANSMISSION_STATUS_CAT"
+    },
+    {
+      "id": 51,
+      "detail": "ADDED_DATE",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 52,
+      "detail": "ADDING_USER_CODE",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 53,
+      "detail": "UPDATED_DATE",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 54,
+      "detail": "UPDATING_USER_CODE",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

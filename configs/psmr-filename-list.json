@@ -1,0 +1,222 @@
+[
+  {
+    "tableId": "AS003",
+    "tableName": "TB_M_PARTS",
+    "ifFileName": "DTVYL001_AS003.dat",
+    "detail": "Parts Master",
+    "length": 861,
+    "configFile": "psmr-as003.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "AS004",
+    "tableName": "TB_M_PRD_PARTS",
+    "ifFileName": "DTVYL001_AS004.dat",
+    "detail": "Production Parts Master",
+    "length": 292,
+    "configFile": "psmr-as004.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "AS015",
+    "tableName": "TB_M_MP_PARTS",
+    "ifFileName": "DTVYL001_AS015.dat",
+    "detail": "Multipurpose Parts Master",
+    "length": 188,
+    "configFile": "psmr-as015.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "AS023",
+    "tableName": "TB_M_SRV_EXP_PARTS",
+    "ifFileName": "DTVYL001_AS023.dat",
+    "detail": "Service & Export Parts Master",
+    "length": 814,
+    "configFile": "psmr-as023.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS030",
+    "tableName": "TB_M_SRC_RFQ",
+    "ifFileName": "DTVYL001_DS030.dat",
+    "detail": "Sourcing RFQ Master",
+    "length": 720,
+    "configFile": "psmr-ds030.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS031",
+    "tableName": "TB_M_SRC_RFQ_DT",
+    "ifFileName": "DTVYL001_DS031.dat",
+    "detail": "Sourcing RFQ detail Master",
+    "length": 803,
+    "configFile": "psmr-ds031.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS032",
+    "tableName": "TB_M_SRC_RFQ_SUP",
+    "ifFileName": "DTVYL001_DS032.dat",
+    "detail": "Sourcing RFQ Supplier Master",
+    "length": 51,
+    "configFile": "psmr-ds032.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS033",
+    "tableName": "TB_M_SRC_RFQ_TOOL_DT",
+    "ifFileName": "DTVYL001_DS033.dat",
+    "detail": "Sourcing RFQ Tooling detail Master",
+    "length": 1255,
+    "configFile": "psmr-ds033.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS043",
+    "tableName": "TB_M_PRD_RFQ",
+    "ifFileName": "DTVYL001_DS043.dat",
+    "detail": "Production RFQ Master",
+    "length": 767,
+    "configFile": "psmr-ds043.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS048",
+    "tableName": "TB_M_PRD_RFQ_DT",
+    "ifFileName": "DTVYL001_DS048.dat",
+    "detail": "Production RFQ detail Master",
+    "length": 851,
+    "configFile": "psmr-ds048.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS050",
+    "tableName": "TB_M_PRD_RFQ_TOOL_DT",
+    "ifFileName": "DTVYL001_DS050.dat",
+    "detail": "Production RFQ Tooling detail Master",
+    "length": 1303,
+    "configFile": "psmr-ds050.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS643",
+    "tableName": "TB_M_SRV_EXP_RFQ",
+    "ifFileName": "DTVYL001_DS643.dat",
+    "detail": "Service & Export RFQ Master",
+    "length": 828,
+    "configFile": "psmr-ds643.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS648",
+    "tableName": "TB_M_SRV_EXP_RFQ_DT",
+    "ifFileName": "DTVYL001_DS648.dat",
+    "detail": "Service & Export RFQ detail Master",
+    "length": 851,
+    "configFile": "psmr-ds648.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS650",
+    "tableName": "TB_M_SRV_EXP_RFQ_TDT",
+    "ifFileName": "DTVYL001_DS650.dat",
+    "detail": "Service & Export RFQ Tooling detail Master",
+    "length": 1303,
+    "configFile": "psmr-ds650.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS551",
+    "tableName": "TB_M_MP_RFQ",
+    "ifFileName": "DTVYL001_DS551.dat",
+    "detail": "Multipurpose RFQ Master",
+    "length": 1007,
+    "configFile": "psmr-ds551.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS553",
+    "tableName": "TB_M_MP_RFQ_DT",
+    "ifFileName": "DTVYL001_DS553.dat",
+    "detail": "Multipurpose RFQ detail Master",
+    "length": 851,
+    "configFile": "psmr-ds553.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS554",
+    "tableName": "TB_M_MP_RFQ_TOOL_DT",
+    "ifFileName": "DTVYL001_DS554.dat",
+    "detail": "Multipurpose RFQ Tooling detail Master",
+    "length": 1303,
+    "configFile": "psmr-ds554.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS079",
+    "tableName": "TB_M_TY_NTY_CONTS",
+    "ifFileName": "DTVYL001_DS079.dat",
+    "detail": "TY/NTY Contents Master",
+    "length": 108,
+    "configFile": "psmr-ds079.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "DS080",
+    "tableName": "TB_M_TY_NTY_CONTS_DT",
+    "ifFileName": "DTVYL001_DS080.dat",
+    "detail": "TY/NTY Contents detail Master",
+    "length": 54,
+    "configFile": "psmr-ds080.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "AS030",
+    "tableName": "TB_M_COST_PLAN_PARTS",
+    "ifFileName": "DTVYL001_AS030.dat",
+    "detail": "Cost Planning Parts Master",
+    "length": 1210,
+    "configFile": "psmr-as030.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "JS031",
+    "tableName": "TB_M_COST_PLAN_DT",
+    "ifFileName": "DTVYL001_JS031.dat",
+    "detail": "Cost Planning detail Master",
+    "length": 2335,
+    "configFile": "psmr-js031.json",
+    "headerFlag": false,
+    "footerFlag": true
+  },
+  {
+    "tableId": "ES001",
+    "tableName": "TB_M_PO",
+    "ifFileName": "GBF3TW66.DTW66001.X0000001",
+    "detail": "Price Master Interface",
+    "length": 948,
+    "configFile": "psmr-es001.json",
+    "headerFlag": true,
+    "footerFlag": true
+  }
+]

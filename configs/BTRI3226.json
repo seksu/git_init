@@ -1,0 +1,34 @@
+{
+  "fileNameFormat": "^BG94330_.*$",
+  "functionId": "BTRI3226",
+  "moduleId": "BTRI3",
+  "fromSystem": "SCP",
+  "stagingTable": "TB_S_SCP_EXCISE_TAX",
+  "type": "fixlength",
+  "header": {
+    "required": true
+  },
+  "footer": {
+    "required": true,
+    "format": "#T#"
+  },
+  "detailCount": 39,
+  "detailRowIndex": 2,
+  "detail": [
+    {
+      "columnFrom": 9,
+      "columnTo": 24,
+      "key": "pqNo"
+    },
+    {
+      "columnFrom": 26,
+      "columnTo": 29,
+      "key": "revNo"
+    },
+    {
+      "columnFrom": 31,
+      "columnTo": 38,
+      "key": "exciseTax"
+    }
+  ]
+}

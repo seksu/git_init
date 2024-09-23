@@ -1,0 +1,37 @@
+{
+    "fileNameFormat" : "^TRP1220_.*$",
+    "functionId": "BTRI3205",
+    "moduleId": "BTRI3",
+    "fromSystem": "TRP",
+    "stagingTable":"TB_S_SLG_PRICE",
+    "type":"fixlength",
+    "header":{
+      "required":true
+    },
+    "footer":{
+      "required":true,
+      "format":"#T#"
+    },
+    "detailCount" : 44,
+    "detailRowIndex": 2,
+    "detail" : [
+      {
+        "columnFrom" : 9,
+        "columnTo" : 23,
+        "key": "partNo",
+        "required": true
+      },
+      {
+        "columnFrom" : 25,
+        "columnTo" : 34,
+        "key": "finalPrice",
+        "required": true
+      },
+      {
+        "columnFrom" : 36,
+        "columnTo" : 43,
+        "key": "effectiveDt",
+        "required": true
+      }       
+    ]
+}

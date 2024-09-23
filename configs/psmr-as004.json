@@ -1,0 +1,398 @@
+{
+  "fileNameFormat": "DTVYL001_AS004.dat",
+  "functionId": "AS004",
+  "moduleId": "AS004",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_PRD_PARTS",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "Trigger Data Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": true,
+      "key": "TRIGGER_DATA_CAT"
+    },
+    {
+      "id": 2,
+      "detail": "Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "PART_NO"
+    },
+    {
+      "id": 3,
+      "detail": "Supplier Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": true,
+      "key": "SUPPLIER_CODE"
+    },
+    {
+      "id": 4,
+      "detail": "Project Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": true,
+      "key": "PROJECT_CODE"
+    },
+    {
+      "id": 5,
+      "detail": "NAMC Code",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "NAMC_CODE"
+    },
+    {
+      "id": 6,
+      "detail": "Dock Code",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "DOCK_CODE"
+    },
+    {
+      "id": 7,
+      "detail": "Colour Code",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "COLOUR_CODE"
+    },
+    {
+      "id": 8,
+      "detail": "Interim Pricing Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": true,
+      "key": "INTERIM_PRICING_F"
+    },
+    {
+      "id": 9,
+      "detail": "Stage",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "STAGE"
+    },
+    {
+      "id": 10,
+      "detail": "Trigger type",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "TRIGGER_type"
+    },
+    {
+      "id": 11,
+      "detail": "Part type",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "PART_type"
+    },
+    {
+      "id": 12,
+      "detail": "Manual Trigger Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "MANUAL_TRIGGER_F"
+    },
+    {
+      "id": 13,
+      "detail": "Buyer Release Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "BUYER_RELEASE_F"
+    },
+    {
+      "id": 14,
+      "detail": "Manual Override Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "MANUAL_OVERRIDE_CAT"
+    },
+    {
+      "id": 15,
+      "detail": "RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "RFQ_CAT"
+    },
+    {
+      "id": 16,
+      "detail": "RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "RFQ_NO"
+    },
+    {
+      "id": 17,
+      "detail": "Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "REV_NO"
+    },
+    {
+      "id": 18,
+      "detail": "Buyer Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "BUYER_CODE"
+    },
+    {
+      "id": 19,
+      "detail": "Local Commodity Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "LOCAL_COMMODITY_CODE"
+    },
+    {
+      "id": 20,
+      "detail": "Part Name",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "PART_NAME"
+    },
+    {
+      "id": 21,
+      "detail": "Sourcing Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "SRC_CAT"
+    },
+    {
+      "id": 22,
+      "detail": "Drawing Attached Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "DRAWING_ATTACH_CAT"
+    },
+    {
+      "id": 23,
+      "detail": "Drawing Received Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "DRAWING_RECEIVED_F"
+    },
+    {
+      "id": 24,
+      "detail": "Current Supplier Name",
+      "type": "CHAR",
+      "length": 30,
+      "required": false,
+      "key": "CURRENT_SUPPLIER_NAME"
+    },
+    {
+      "id": 25,
+      "detail": "Current Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "CURRENT_PART_NO"
+    },
+    {
+      "id": 26,
+      "detail": "Current Part Name",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "CURRENT_PART_NAME"
+    },
+    {
+      "id": 27,
+      "detail": "Trigger Received Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "TRIGGER_RECEIVED_DATE"
+    },
+    {
+      "id": 28,
+      "detail": "Carry Fwd Comp Percent",
+      "type": "NUM",
+      "precision": 2,
+      "length": 6,
+      "required": false,
+      "key": "CARRY_FWD_COMP_PERCENT"
+    },
+    {
+      "id": 29,
+      "detail": "Carry Fwd Uncomp Percent",
+      "type": "NUM",
+      "precision": 2,
+      "length": 6,
+      "required": false,
+      "key": "CARRY_FWD_UNCOMP_PERCENT"
+    },
+    {
+      "id": 30,
+      "detail": "System Assigned Due Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "SYSTEM_ASSIGNED_DUE_DATE"
+    },
+    {
+      "id": 31,
+      "detail": "Final Sourcing Due Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "FINAL_SRC_DUE_DATE"
+    },
+    {
+      "id": 32,
+      "detail": "ECI Number",
+      "type": "CHAR",
+      "length": 10,
+      "required": false,
+      "key": "ECI_NO"
+    },
+    {
+      "id": 33,
+      "detail": "Unit Of Measure",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UNIT_OF_MEASURE"
+    },
+    {
+      "id": 34,
+      "detail": "Issued Interim Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "ISSUED_INTERIM_F"
+    },
+    {
+      "id": 35,
+      "detail": "CFS Number",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "CFS_NO"
+    },
+    {
+      "id": 36,
+      "detail": "Cost Planning Phase",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "COST_PLAN_PHASE"
+    },
+    {
+      "id": 37,
+      "detail": "Cost Planning Step",
+      "type": "CHAR",
+      "length": 3,
+      "required": false,
+      "key": "COST_PLAN_STEP"
+    },
+    {
+      "id": 38,
+      "detail": "Cost Planning Step Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": false,
+      "key": "COST_PLAN_STEP_REV_NO"
+    },
+    {
+      "id": 39,
+      "detail": "Cost Planning Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "COST_PLAN_CAT"
+    },
+    {
+      "id": 40,
+      "detail": "Cost Planning Received Date",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "COST_PLAN_RECEIVED_DATE"
+    },
+    {
+      "id": 41,
+      "detail": "Cost Planning Available Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "COST_PLAN_AVAILABLE_F"
+    },
+    {
+      "id": 42,
+      "detail": "CFS Formal Accept Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "CFS_FORMAL_ACCEPT_F"
+    },
+    {
+      "id": 43,
+      "detail": "Approval with CFS Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "APPROVAL_WITH_CFS_F"
+    },
+    {
+      "id": 44,
+      "detail": "Past Model Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "PAST_MODEL_F"
+    },
+    {
+      "id": 45,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 46,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 47,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 48,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "fileNameFormat" : "^GBF3TW60.DTW60001.X0000001.*$",
+  "functionId": "BTRI2201",
+  "moduleId": "BTRI2",
+  "processName": "Tooling Order Auto Receiving from WARP",
+  "datasource": "WARP",
+  "limitReadFile": 1000,
+  "stagingTable":"TB_S_TOOL_ORD",
+  "dataFormat" : [
+    {
+      "header": {
+        "rowsCount": 1,
+        "mapping": [
+          {
+            "key": "headerIdentifier",
+            "row": 1,
+            "columnFrom" : 3,
+            "columnTo" : 3,
+            "type": "string",
+            "required": true,
+            "equals": "H"
+          },
+          {
+            "key": "headerDesc",
+            "row": 1,
+            "columnFrom" : 12,
+            "columnTo" : 19,
+            "type": "string",
+            "required": true,
+            "equals": "LBGBTW60"
+          }
+        ]
+      },
+    
+      "content": {
+        "mapping": [
+          {
+            "columnFrom" : 23,
+            "columnTo" : 26,
+            "field": "supplierCd",
+            "required": true
+          },
+          {
+            "columnFrom" : 27,
+            "columnTo" : 27,
+            "field": "supplierPlantCd",
+            "required": true
+          },									
+          {
+            "columnFrom" : 76,
+            "columnTo" : 125,
+            "field": "supplierName",
+            "required": true
+          },
+          {
+            "columnFrom" : 1,
+            "columnTo" : 12,
+            "field": "partNo",
+            "required": true
+          },
+          {
+            "columnFrom" : 14,
+            "columnTo" : 18,
+            "field": "projectCd",
+            "required": true
+          },
+          {
+            "columnFrom" : 35,
+            "columnTo" : 74,
+            "field": "partName",
+            "required": true
+          },
+          {
+            "columnFrom" : 29,
+            "columnTo" : 33,
+            "field": "prodFamily"
+          },
+          {
+            "columnFrom" : 127,
+            "columnTo" : 156,
+            "field": "buyerName"
+          },
+          {
+            "columnFrom" : 158,
+            "columnTo" : 161,
+            "field": "qtyPerUnit",
+            "type": "number"
+          },
+          {
+            "columnFrom" : 163,
+            "columnTo" : 171,
+            "field": "unitPerMonth",
+            "type": "number"
+          },
+          {
+            "columnFrom" : 173,
+            "columnTo" : 173,
+            "field": "drawingFlag"
+          },
+          {
+            "columnFrom" : 175,
+            "columnTo" : 180,
+            "field": "shareRate",
+            "type": "number"
+          },
+          {
+            "columnFrom" : 20,
+            "columnTo" : 21,
+            "field": "namcCd"
+          }
+        ]
+      },
+    
+      "footer": {
+        "rowsCount": 0,
+        "mapping": []
+      }
+    }
+  ]
+}

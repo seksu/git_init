@@ -1,0 +1,213 @@
+{
+    "fileNameFormat" : "^BG94310_.*$",
+    "functionId": "BTRI3402",
+    "moduleId": "BTRI3",
+    "fromSystem": "SCP",
+    "stagingTable":"TB_S_SCP_QUOTATION",
+    "type":"fixlength",
+    "header":{
+      "required":true
+    },
+    "footer":{
+      "required":true,
+      "format":"#T#"
+    },
+    "detailCount" : 442,
+    "detailRowIndex": 2,
+    "detail" : [
+      {
+        "columnFrom" : 1,
+        "columnTo" : 7,
+        "key": "recId",
+        "isLineNo": true
+      },
+      {
+        "columnFrom" : 9,
+        "columnTo" : 24,
+        "key": "pqNo",
+        "required":true
+      },
+      {
+        "columnFrom" : 26,
+        "columnTo" : 29,
+        "key": "revNo",
+        "required":true
+      },
+      {
+        "columnFrom" : 31,
+        "columnTo" : 31,
+        "key": "exciseTaxFlag"
+      },
+      {
+        "columnFrom" : 33,
+        "columnTo" : 40,
+        "key": "exciseTaxAmount"
+      },
+      {
+        "columnFrom" : 42,
+        "columnTo" : 91,
+        "key": "supContactName"
+      },
+      {
+        "columnFrom" : 93,
+        "columnTo" : 142,
+        "key": "supplierEmail"
+      },
+      {
+        "columnFrom" : 144,
+        "columnTo" : 193,
+        "key": "supplierTel"
+      },
+      {
+        "columnFrom" : 195,
+        "columnTo" : 202,
+        "key": "supplierReplyDt"
+      },
+      {
+        "columnFrom" : 204,
+        "columnTo" : 204,
+        "key": "pakingPlace"
+      },
+      {
+        "columnFrom" : 206,
+        "columnTo" : 210,
+        "key": "domPackingQty"
+      },
+      {
+        "columnFrom" : 212,
+        "columnTo" : 216,
+        "key": "domTimePlasticBox"
+      },
+      {
+        "columnFrom" : 218,
+        "columnTo" : 222,
+        "key": "domTimePackingPart"
+      },
+      {
+        "columnFrom" : 224,
+        "columnTo" : 228,
+        "key": "domTimePrepareSkid"
+      },
+      {
+        "columnFrom" : 230,
+        "columnTo" : 234,
+        "key": "domTimeOtherJobs"
+      },
+      {
+        "columnFrom" : 236,
+        "columnTo" : 240,
+        "key": "expTimePlasticBox"
+      },
+      {
+        "columnFrom" : 242,
+        "columnTo" : 246,
+        "key": "expTimePackingPart",
+        "required":true
+      },
+      {
+        "columnFrom" : 248,
+        "columnTo" : 252,
+        "key": "expTimePrepareSkid"
+      },
+      {
+        "columnFrom" : 254,
+        "columnTo" : 258,
+        "key": "expTimeOtherJobs"
+      },
+      {
+        "columnFrom" : 260,
+        "columnTo" : 273,
+        "key": "otherMatPrice"
+      },
+      {
+        "columnFrom" : 275,
+        "columnTo" : 288,
+        "key": "equipmentPrice"
+      },
+      {
+        "columnFrom" : 290,
+        "columnTo" : 299,
+        "key": "otherMatCost"
+      },
+      {
+        "columnFrom" : 301,
+        "columnTo" : 310,
+        "key": "equipmentCost"
+      },
+      {
+        "columnFrom" : 312,
+        "columnTo" : 313,
+        "key": "noManpow"
+      },
+      {
+        "columnFrom" : 315,
+        "columnTo" : 326,
+        "key": "matPartNo"
+      },
+      {
+        "columnFrom" : 328,
+        "columnTo" : 331,
+        "key": "matSupplierCd"
+      },
+      {
+        "columnFrom" : 333,
+        "columnTo" : 333,
+        "key": "matSupplierPlantCd"
+      },
+      {
+        "columnFrom" : 335,
+        "columnTo" : 342,
+        "key": "matEffectiveDt"
+      },
+      {
+        "columnFrom" : 344,
+        "columnTo" : 348,
+        "key": "matProcessTime"
+      },
+      {
+        "columnFrom" : 350,
+        "columnTo" : 354,
+        "key": "domTotalTime"
+      },
+      {
+        "columnFrom" : 356,
+        "columnTo" : 360,
+        "key": "expTotalTime"
+      },
+      {
+        "columnFrom" : 362,
+        "columnTo" : 366,
+        "key": "diffTotalTime"
+      },
+      {
+        "columnFrom" : 368,
+        "columnTo" : 379,
+        "key": "totalMatCost"
+      },
+      {
+        "columnFrom" : 381,
+        "columnTo" : 391,
+        "key": "ohTotalMatCost"
+      },
+      {
+        "columnFrom" : 393,
+        "columnTo" : 403,
+        "key": "totalLaborCost"
+      },
+      {
+        "columnFrom" : 405,
+        "columnTo" : 415,
+        "key": "ohTotalMhCost"
+      },
+      {
+        "columnFrom" : 417,
+        "columnTo" : 428,
+        "key": "totalPackingPkgCost"
+      },
+      {
+        "columnFrom" : 430,
+        "columnTo" : 441,
+        "key": "totalPackingPcCost"
+      }         
+    ]
+}

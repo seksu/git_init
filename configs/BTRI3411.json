@@ -1,0 +1,138 @@
+{
+  "fileNameFormat": "^BF90330_.*$",
+  "functionId": "BTRI3411",
+  "moduleId": "BTRI3",
+  "fromSystem": "BF9",
+  "stagingTable": "TB_S_SPO_PRICE_DECISION",
+  "type": "fixlength",
+  "header": {
+    "required": true
+  },
+  "footer": {
+    "required": true,
+    "format": "#T#"
+  },
+  "detailCount": 384,
+  "detailRowIndex": 2,
+  "detail": [
+    {
+      "columnFrom": 1,
+      "columnTo": 7,
+      "key": "recordId",
+      "required": true,
+      "isLineNo": true
+    },
+    {
+      "columnFrom": 9,
+      "columnTo": 18,
+      "key": "reqNo",
+      "required": true
+    },
+    {
+      "columnFrom": 20,
+      "columnTo": 21,
+      "key": "revNo",
+      "required": true
+    },
+    {
+      "columnFrom": 23,
+      "columnTo": 26,
+      "key": "carFamilyCd",
+      "required": true
+    },
+    {
+      "columnFrom": 28,
+      "columnTo": 28,
+      "key": "customerPlantCd",
+      "required": true
+    },
+    {
+      "columnFrom": 30,
+      "columnTo": 31,
+      "key": "dockCd",
+      "required": true
+    },
+    {
+      "columnFrom": 33,
+      "columnTo": 36,
+      "key": "supplierCd",
+      "required": true
+    },
+    {
+      "columnFrom": 38,
+      "columnTo": 38,
+      "key": "supplierPlant",
+      "required": true
+    },
+    {
+      "columnFrom": 40,
+      "columnTo": 51,
+      "key": "partNo",
+      "required": true
+    },
+    {
+      "columnFrom": 53,
+      "columnTo": 102,
+      "key": "partName"
+    },
+    {
+      "columnFrom": 104,
+      "columnTo": 106,
+      "key": "packingSpec"
+    },
+    {
+      "columnFrom": 108,
+      "columnTo": 114,
+      "key": "qty",
+      "required": true
+    },
+    {
+      "columnFrom": 116,
+      "columnTo": 127,
+      "key": "deliveryDt",
+      "required": true
+    },
+    {
+      "columnFrom": 129,
+      "columnTo": 158,
+      "key": "requester"
+    },
+    {
+      "columnFrom": 160,
+      "columnTo": 167,
+      "key": "requestDt",
+      "required": true
+    },
+    {
+      "columnFrom": 169,
+      "columnTo": 178,
+      "key": "telNo"
+    },
+    {
+      "columnFrom": 180,
+      "columnTo": 229,
+      "key": "contactInfo"
+    },
+    {
+      "columnFrom": 231,
+      "columnTo": 231,
+      "key": "cause",
+      "required": true
+    },
+    {
+      "columnFrom": 233,
+      "columnTo": 282,
+      "key": "purpose"
+    },
+    {
+      "columnFrom": 284,
+      "columnTo": 333,
+      "key": "remark1"
+    },
+    {
+      "columnFrom": 335,
+      "columnTo": 384,
+      "key": "remark2"
+    }
+  ]
+}

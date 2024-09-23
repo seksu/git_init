@@ -1,0 +1,73 @@
+{
+  "fileNameFormat" : "^BF90300_.*$",
+  "functionId": "BTRI2303",
+  "moduleId": "BTRI2",
+  "fromSystem": "PPMS",
+  "stagingTable":"TB_S_PART_SUP",
+  "type":"fixlength",
+  "header":{
+    "required":true
+  },
+  "footer":{
+    "required":true,
+    "format":"#T#"
+  },
+  "detailCount" : 100,
+  "detailRowIndex": 2,
+  "detail" : [
+    {
+      "columnFrom" : 1,
+      "columnTo" : 7,
+      "key": "recordId",
+      "isLineNo": true
+    },
+    {
+      "columnFrom" : 9,
+      "columnTo" : 20,
+      "key": "partNo",
+      "required":true
+    },
+    {
+      "columnFrom" : 22,
+      "columnTo" : 71,
+      "key": "partName",
+      "required":true
+    },
+    {
+      "columnFrom" : 73,
+      "columnTo" : 76,
+      "key": "supplierCd"
+    },
+    {
+      "columnFrom" : 78,
+      "columnTo" : 78,
+      "key": "supplierPlantCd"
+    },
+    {
+      "columnFrom" : 80,
+      "columnTo" : 84,
+      "key": "buyerCd"
+    },
+    {
+      "columnFrom" : 86,
+      "columnTo" : 86,
+      "key": "whtFlag"
+    },
+    {
+      "columnFrom" : 88,
+      "columnTo" : 88,
+      "key": "partCategoryCd"
+    },
+    {
+      "columnFrom" : 90,
+      "columnTo" : 90,
+      "key": "multiSupplier"
+    },
+    {
+      "columnFrom" : 92,
+      "columnTo" : 99,
+      "key": "abolitionDt",
+      "format": "YYYYMMDD"
+    }     
+  ]
+}

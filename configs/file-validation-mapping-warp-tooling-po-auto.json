@@ -1,0 +1,177 @@
+{
+  "fileNameFormat" : "^GBF3TW67.DTW67001.X0000001.*$",
+  "functionId": "CTRI3011",
+  "moduleId": "CTRI3",
+  "processName": "Tooling PO Auto Receiving from WARP",
+  "datasource": "WARP",
+  "limitReadFile": 1000,
+  "stagingTable":"TB_S_TOOL_PO",
+  "dataFormat" : [
+    {
+      "header": {
+        "rowsCount": 1,
+        "mapping": [
+          {
+            "key": "headerIdentifier",
+            "row": 1,
+            "columnFrom" : 3,
+            "columnTo" : 3,
+            "type": "string",
+            "required": true,
+            "equals": "H"
+          },
+          {
+            "key": "headerDesc",
+            "row": 1,
+            "columnFrom" : 12,
+            "columnTo" : 19,
+            "type": "string",
+            "required": true,
+            "equals": "LBGBTW67"
+          }
+        ]
+      },
+      "content": {
+        "mapping": [
+          {
+            "columnFrom" : 1,
+            "columnTo" : 16,
+            "field": "handlingSeqNo",
+            "required": false
+          },
+          {
+            "columnFrom" : 17,
+            "columnTo" : 26,
+            "field": "requisitionId",
+            "required": false
+          },
+          {
+            "columnFrom" : 27,
+            "columnTo" : 34,
+            "field": "sendToolingPoDt",
+            "required": false
+          },
+          {
+            "columnFrom" : 35,
+            "columnTo" : 36,
+            "field": "nameCd",
+            "required": false
+          },
+          {
+            "columnFrom" : 37,
+            "columnTo" : 39,
+            "field": "currCategory",
+            "required": false
+          },
+          {
+            "columnFrom" : 40,
+            "columnTo" : 51,
+            "field": "partNo",
+            "required": false
+          },
+          {
+            "columnFrom" : 52,
+            "columnTo" : 55,
+            "field": "supplierCd",
+            "required": false
+          },
+          {
+            "columnFrom" : 56,
+            "columnTo" : 56,
+            "field": "supplierPlantCd",
+            "required": false
+          },
+          {
+            "columnFrom" : 57,
+            "columnTo" : 61,
+            "field": "buyerCd",
+            "required": false
+          },
+          {
+            "columnFrom" : 62,
+            "columnTo" : 66,
+            "field": "projectCd",
+            "required": false
+          },
+          {
+            "columnFrom" : 67,
+            "columnTo" : 68,
+            "field": "dockCd",
+            "required": false
+          },
+          {
+            "columnFrom" : 69,
+            "columnTo" : 70,
+            "field": "colorCd",
+            "required": false
+          },
+          {
+            "columnFrom" : 71,
+            "columnTo" : 78,
+            "field": "dueDt",
+            "required": false
+          },
+          {
+            "columnFrom" : 79,
+            "columnTo" : 143,
+            "field": "assetTooling",
+            "required": false
+          },
+          {
+            "columnFrom" : 144,
+            "columnTo" : 147,
+            "field": "toolingQty",
+            "required": false
+          },
+          {
+            "columnFrom" : 148,
+            "columnTo" : 163,
+            "field": "toolingAmt",
+            "required": false
+          },
+          {
+            "columnFrom" : 164,
+            "columnTo" : 173,
+            "field": "latestEct",
+            "required": false
+          },
+          {
+            "columnFrom" : 174,
+            "columnTo" : 174,
+            "field": "transStatus",
+            "required": false
+          },
+          {
+            "columnFrom" : 175,
+            "columnTo" : 182,
+            "field": "addDt",
+            "required": false
+          },
+          {
+            "columnFrom" : 183,
+            "columnTo" : 187,
+            "field": "addUser",
+            "required": false
+          },
+          {
+            "columnFrom" : 188,
+            "columnTo" : 195,
+            "field": "updateDt",
+            "required": false
+          },
+          {
+            "columnFrom" : 196,
+            "columnTo" : 200,
+            "field": "updateUser",
+            "required": false
+          }
+        ]
+      },
+    
+      "footer": {
+        "rowsCount": 0,
+        "mapping": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "fileNameFormat": "DTVYL001_DS080.dat",
+  "functionId": "DS080",
+  "moduleId": "DS080",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_TY_NTY_CONTS_DT",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "Letter Sequence Number",
+      "type": "CHAR",
+      "length": 15,
+      "required": true,
+      "key": "LETTER_SEQUENCE_NO"
+    },
+    {
+      "id": 2,
+      "detail": "Block Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "BLOCK_NO"
+    },
+    {
+      "id": 3,
+      "detail": "Text Sequence Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "TEXT_SEQUENCE_NO"
+    },
+    {
+      "id": 4,
+      "detail": "Block Text",
+      "type": "CHAR",
+      "length": 8,
+      "required": false,
+      "key": "BLOCK_TEXT"
+    },
+    {
+      "id": 5,
+      "detail": "Hide Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "HIDE_F"
+    },
+    {
+      "id": 6,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 7,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 8,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 9,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

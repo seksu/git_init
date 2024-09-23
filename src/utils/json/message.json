@@ -1,0 +1,166 @@
+{
+    "MSTD0000AINF" : {
+        "code" : "MSTD0000AINF",
+        "message" : "[0]"        
+    },
+    "MTRI0000AINF" : {
+        "code" : "MTRI0000AINF",
+        "message" : "[0]"           
+    },   
+    "MTRI0000BERR" : {
+        "code" : "MTRI0000BERR",
+        "message" : "[0]"           
+    },   
+    "MSTD0002AERR" : {
+        "code" : "MSTD0002AERR",
+        "message" : "Invalid date format : [0]."           
+    },     
+    "MSTD7002BINF" : {
+        "code" : "MSTD7002BINF",
+        "message" : "[0] End with error [1], [2], [3]"
+    },
+    "MSTD0001FINF" : {
+        "code" : "MSTD0001FINF",
+        "message" : "[0] is not found"        
+    },
+    "MSTD0010AERR" : {
+        "code" : "MSTD0010AERR",
+        "message" : "[0] = [1] already exist in [2]"           
+    },    
+    "MSTD0012AERR" : {
+        "code" : "MSTD0012AERR",
+        "message" : "[0] does not exist in [1]"        
+    },    
+    "MSTD0031AERR" : {
+        "code" : "MSTD0031AERR",
+        "message" : "[0] should not be empty"           
+    },
+    "MSTD0039AERR" : {
+        "code" : "MSTD0039AERR",
+        "message" : "Duplication found for [0]"        
+    },   
+    "MSTD0043AERR" : {
+        "code" : "MSTD0043AERR",
+        "message" : "Invalid [0]"        
+    },             
+    "MSTD0052AERR" : {
+        "code" : "MSTD0052AERR",
+        "message" : "Invalid length of [0]. The length must be [1] digits"           
+    },
+    "MSTD0085AINF" : {
+        "code" : "MSTD0085AINF",
+        "message" : "[0] process is completed successfully"        
+    },      
+    "MSTD0086AINF" : {
+        "code" : "MSTD0086AINF",
+        "message" : "[0] process is finished with error. [1]"        
+    },  
+    "MSTD0108AINF" : {
+        "code" : "MSTD0108AINF",
+        "message" : "Start process [0]"        
+    },       
+    "MSTD0120AERR" : {
+        "code" : "MSTD0120AERR",
+        "message" : "[0] must be equal with [1]"        
+    },
+    "MTRI1000AERR" : {
+        "code" : "MTRI1000AERR",
+        "message" : "Invalid Combination of Customer, Data Source and Part Category"        
+    },    
+    "MTRI1017AERR" : {
+        "code" : "MTRI1017AERR",
+        "message" : "[0] no longer exist"        
+    },
+    "MTRI1018AERR" : {
+        "code" : "MTRI1018AERR",
+        "message" : "Part No. [0] does not exist in Part Supplier Master"        
+    },    
+    "MTRI1023AERR" : {
+        "code" : "MTRI1023AERR",
+        "message" : "Saving data is completed successfully with error in Selling Price Calculation. Please see the log for more information."        
+    },    
+    "MTRI2035AINF" : {
+        "code" : "MTRI2035AINF",
+        "message" : "Error in update because the data is already updated by another user."        
+    },
+    "MTRI2036AINF" : {
+        "code" : "MTRI2036AINF",
+        "message" : "Error in delete because the data is already updated by another user."        
+    },
+    "MTRI3040BERR" : {
+        "code" : "MTRI3040BERR",
+        "message" : "[0] must be [1]"        
+    }, 
+    "MTRI5002BERR" : {
+        "code" : "MTRI5002BERR",
+        "message" : "[0] is not exist in [1] Table [2]"           
+    },
+    "MTRI5005BERR" : {
+        "code" : "MTRI5005BERR",
+        "message" : "[0] is not active [1]"        
+    }, 
+    "MTRI6008BERR" : {
+        "code" : "MTRI6008BERR",
+        "message" : "Duplication found in [0]"        
+    },        
+    "MSTD7000BINF" : {
+        "code" : "MSTD7000BINF",
+        "message" : "[0] Begin"
+    },
+    "MSTD7001BINF" : {
+        "code" : "MSTD7001BINF",
+        "message" : "[0] End successfully  [1], [2], [3]"
+    },
+    "MTRI7002BERR" : {
+        "code" : "MTRI7002BERR",
+        "message" : "No data found [0]"           
+    },
+    "MSTD0067AERR" : {
+        "code" : "MSTD0067AERR",
+        "message" : "Undefine Error : [0]"           
+    },
+    "MSTD7003BINF" : {
+        "code" : "MSTD7003BINF",
+        "message" : "[0] End with warning [1], [2], [3]"           
+    },
+    "MSTD0056AERR" : {
+        "code" : "MSTD0056AERR",
+        "message" : "Invalid numeric format for [0]. The numeric format must be [1]"           
+    },
+    "MSTD0021AERR" : {
+        "code" : "MSTD0021AERR",
+        "message" : "[0] must be greater than [1]"           
+    },
+    "MSTD0044AERR" : {
+        "code" : "MSTD0044AERR",
+        "message" : "Invalid [0]. The value must be [1]"           
+    },
+    "MSTD7022BERR" : {
+        "code" : "MSTD7022BERR",
+        "message" : "[0] Duplicate key from [1], [2], [3], [4]"           
+    },
+    "MTRI3049AERR" : {
+        "code" : "MTRI3049AERR",
+        "message" : "Invalid Effective Date format. Date format must be dd/mm/yyyy."           
+    },
+    "MTRI9002BERR" : {
+        "code" : "MTRI9002BERR",
+        "message" : "[0] is duplicated in excel file."           
+    },
+    "MTRI3040AERR" : {
+        "code" : "MTRI3040AERR",
+        "message" : "[0] Effective Date [1] effective date must be greater than or qual to current date [2]"           
+    },
+    "MTRI3039AERR" : {
+        "code" : "MTRI3039AERR",
+        "message" : "[0] Effective Date [1] must be greater than latest Effective date [2]"           
+    },
+    "MTRI3048AERR" : {
+        "code" : "MTRI3048AERR",
+        "message" : "UserID = [0] doesn't map with Buyer Code. [1]"           
+    },
+    "MTRI3011BERR" : {
+        "code" : "MTRI3011BERR",
+        "message" : "[0]"         
+    }
+}

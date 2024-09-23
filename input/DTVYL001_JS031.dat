@@ -1,0 +1,22 @@
+AS003 สำเร็จ
+AS004 ขาด Colour Code, NAMC Code
+AS015 ไม่มีข้อมูลใน interface
+AS023 ขาด NAMC Code
+AS030 ไม่มีข้อมูลใน interface
+DS030 สำเร็จ
+DS031 สำเร็จ
+DS032 สำเร็จ
+DS033 สำเร็จ
+DS043 สำเร็จ
+DS048 สำเร็จ
+DS050 สำเร็จ
+DS079 ขาด NAMC Code, RFQ Category, RFQ Number
+DS080 สำเร็จ
+DS551 ไม่มีข้อมูลใน interface
+DS553 ไม่มีข้อมูลใน interface
+DS554 ไม่มีข้อมูลใน interface
+DS643 ความยาวของข้อมูลไม่ถูกต้อง
+DS648 สำเร็จ
+DS650 สำเร็จ
+JS031 ไม่มีข้อมูลใน interface
+ES001 ไม่พบไฟล์

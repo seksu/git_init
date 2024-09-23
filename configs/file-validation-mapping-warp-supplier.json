@@ -1,0 +1,107 @@
+{
+  "fileNameFormat" : "^GBF3TW68.DTW68001.X0000001.*$",
+  "functionId": "BTRI2101",
+  "moduleId": "BTRI2",
+  "datasource": "WARP",
+  "limitReadFile": 1000,
+  "limitReadDatabase": 1000,
+  "stagingTable":"TB_S_SUP_PLANT",
+  "dataFormat" : [
+    {
+      "header": {
+        "rowsCount": 1,
+        "mapping": [
+          {
+            "key": "headerIdentifier",
+            "row": 1,
+            "columnFrom" : 3,
+            "columnTo" : 3,
+            "required": true,
+            "equals": "H"
+          },
+          {
+            "key": "headerDesc",
+            "row": 1,
+            "columnFrom" : 12,
+            "columnTo" : 19,
+            "required": true,
+            "equals": "LBGBTW68"
+          }
+        ]
+      },
+    
+      "content": {
+        "mapping": [
+          {
+            "columnFrom" : 9,
+            "columnTo" : 12,
+            "field": "supplierCd",
+            "required": true
+          },
+          {
+            "columnFrom" : 13,
+            "columnTo" : 13,
+            "field": "supplierPlantCd",
+            "required": true
+          },									
+          {
+            "columnFrom" : 475,
+            "columnTo" : 524,
+            "field": "supplierName",
+            "required": true
+          },
+          {
+            "columnFrom" : 996,
+            "columnTo" : 1035,
+            "field": "plantAddr1"
+          },
+          {
+            "columnFrom" : 1036,
+            "columnTo" : 1075,
+            "field": "plantAddr2"
+          },
+          {
+            "columnFrom" : 1076,
+            "columnTo" : 1115,
+            "field": "plantAddr3"
+          },
+          {
+            "columnFrom" : 956,
+            "columnTo" : 995,
+            "field": "plantCity"
+          },
+          {
+            "columnFrom" : 910,
+            "columnTo" : 929,
+            "field": "plantZip"
+          },
+          {
+            "columnFrom" : 931,
+            "columnTo" : 955,
+            "field": "plantCountry"
+          },
+          {
+            "columnFrom" : 1182,
+            "columnTo" : 1221,
+            "field": "plantPhoneNo"
+          },
+          {
+            "columnFrom" : 1222,
+            "columnTo" : 1261,
+            "field": "plantFaxNo"
+          },
+          {
+            "columnFrom" : 1122,
+            "columnTo" : 1151,
+            "field": "plantContactFirstName"
+          }
+        ]
+      },
+    
+      "footer": {
+        "rowsCount": 0,
+        "mapping": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "fileNameFormat": "^BG92051_.*$",
+  "functionId": "BTRI3461",
+  "moduleId": "BTRI3",
+  "fromSystem": "TRI",
+  "stagingTable": "TB_S_SPO_PRICE_CONF_REPLY",
+  "type": "fixlength",
+  "header": {
+    "required": true
+  },
+  "footer": {
+    "required": true,
+    "format": "#T#"
+  },
+  "detailCount": 546,
+  "detailRowIndex": 2,
+  "detail": [
+    {
+      "columnFrom": 1,
+      "columnTo": 7,
+      "key": "recordId",
+      "required": true,
+      "isLineNo": true
+    },
+    {
+      "columnFrom": 9,
+      "columnTo": 23,
+      "key": "pdsNo",
+      "required": true
+    },
+    {
+      "columnFrom": 25,
+      "columnTo": 34,
+      "key": "reqNo",
+      "required": true
+    },
+    {
+      "columnFrom": 36,
+      "columnTo": 37,
+      "key": "revNo",
+      "required": true
+    },
+    {
+      "columnFrom": 39,
+      "columnTo": 42,
+      "key": "supplierCd",
+      "required": true
+    },
+    {
+      "columnFrom": 44,
+      "columnTo": 44,
+      "key": "supplierPlantCd",
+      "required": true
+    },
+    {
+      "columnFrom": 46,
+      "columnTo": 57,
+      "key": "partNo",
+      "required": true
+    },
+    {
+      "columnFrom": 59,
+      "columnTo": 61,
+      "key": "packingSpec",
+      "required": true
+    },
+    {
+      "columnFrom": 63,
+      "columnTo": 64,
+      "key": "status",
+      "required": true
+    },
+    {
+      "columnFrom": 66,
+      "columnTo": 79,
+      "key": "supQuotationPrice"
+    },
+    {
+      "columnFrom": 81,
+      "columnTo": 94,
+      "key": "spoPrice"
+    },
+    {
+      "columnFrom": 96,
+      "columnTo": 110,
+      "key": "diffAmt",
+      "required": true
+    },
+    {
+      "columnFrom": 112,
+      "columnTo": 126,
+      "key": "material",
+      "required": true
+    },
+    {
+      "columnFrom": 128,
+      "columnTo": 142,
+      "key": "component"
+    },
+    {
+      "columnFrom": 144,
+      "columnTo": 158,
+      "key": "process",
+      "required": true
+    },
+    {
+      "columnFrom": 160,
+      "columnTo": 174,
+      "key": "tooling"
+    },
+    {
+      "columnFrom": 176,
+      "columnTo": 190,
+      "key": "transportation"
+    },
+    {
+      "columnFrom": 192,
+      "columnTo": 206,
+      "key": "airFreight",
+      "required": true
+    },
+    {
+      "columnFrom": 208,
+      "columnTo": 222,
+      "key": "otherBaht",
+      "required": true
+    },
+    {
+      "columnFrom": 224,
+      "columnTo": 273,
+      "key": "otherReason"
+    },
+    {
+      "columnFrom": 275,
+      "columnTo": 324,
+      "key": "replyBy",
+      "required": true
+    },
+    {
+      "columnFrom": 326,
+      "columnTo": 333,
+      "key": "replyDt",
+      "required": true
+    },
+    {
+      "columnFrom": 335,
+      "columnTo": 534,
+      "key": "supplierRemark"
+    },
+    {
+      "columnFrom": 536,
+      "columnTo": 543,
+      "key": "supplierDueDt",
+      "required": true
+    },
+    {
+      "columnFrom": 545,
+      "columnTo": 545,
+      "key": "systemPriceFlag",
+      "required": true
+    }
+  ]
+}

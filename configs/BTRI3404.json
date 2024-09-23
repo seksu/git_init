@@ -1,0 +1,37 @@
+{
+    "fileNameFormat" : "^BG94320_.*$",
+    "functionId": "BTRI3404",
+    "moduleId": "BTRI3",
+    "fromSystem": "SCP",
+    "stagingTable":"TB_S_SCP_STATUS",
+    "type":"fixlength",
+    "header":{
+      "required":true
+    },
+    "footer":{
+      "required":true,
+      "format":"#T#"
+    },
+    "detailCount" : 334,
+    "detailRowIndex": 2,
+    "detail" : [
+      {
+        "columnFrom" : 9,
+        "columnTo" : 24,
+        "key": "pqNo",
+        "required":true
+      },
+      {
+        "columnFrom" : 26,
+        "columnTo" : 29,
+        "key": "revNo",
+        "required":true
+      },
+      {
+        "columnFrom" : 31,
+        "columnTo" : 32,
+        "key": "status",
+        "required":true
+      }    
+    ]
+}

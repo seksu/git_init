@@ -1,0 +1,149 @@
+{
+    "fileNameFormat" : "^STL2070_.*$",
+    "functionId": "BTRI3505",
+    "moduleId": "BTRI3",
+    "fromSystem": "STL",
+    "stagingTable":"TB_S_STEEL_PRICE",
+    "type":"fixlength",
+    "header":{
+      "required":true
+    },
+    "footer":{
+      "required":true,
+      "format":"#T#"
+    },
+    "detailCount" : 552,
+    "detailRowIndex": 2,
+    "detail" : [
+      {
+        "columnFrom" : 1,
+        "columnTo" : 7,
+        "key": "recordId",
+        "required": true,
+        "isLineNo": true
+      },
+      {
+        "columnFrom" : 9,
+        "columnTo" : 12,
+        "key": "supplierCd",
+        "required": true
+      },
+      {
+        "columnFrom" : 14,
+        "columnTo" : 14,
+        "key": "supplierPlantCd",
+        "required": true
+      },
+      {
+        "columnFrom" : 16,
+        "columnTo" : 30,
+        "key": "priceConfirmNo",
+        "required": true
+      },
+      {
+        "columnFrom" : 32,
+        "columnTo" : 39,
+        "key": "issueDt",
+        "required": true,
+        "format": "YYYYMMDD"
+      },
+      {
+        "columnFrom" : 41,
+        "columnTo" : 70,
+        "key": "buyerName",
+        "required": true
+      },
+      {
+        "columnFrom" : 72,
+        "columnTo" : 86,
+        "key": "partNo",
+        "required": true
+      },
+      {
+        "columnFrom" : 88,
+        "columnTo" : 137,
+        "key": "partName",
+        "required": true
+      },
+      {
+        "columnFrom" : 139,
+        "columnTo" : 140,
+        "key": "revisionNo",
+        "required": true
+      },
+      {
+        "columnFrom" : 142,
+        "columnTo" : 156,
+        "key": "compPartNo",
+        "required": true
+      },
+      {
+        "columnFrom" : 158,
+        "columnTo" : 207,
+        "key": "compPartName",
+        "required": true
+      },
+      {
+        "columnFrom" : 209,
+        "columnTo" : 223,
+        "key": "steelPartNo",
+        "required": true
+      },
+      {
+        "columnFrom" : 225,
+        "columnTo" : 229,
+        "key": "trader",
+        "required": true
+      },
+      {
+        "columnFrom" : 231,
+        "columnTo" : 235,
+        "key": "buyerCd",
+        "required": true
+      },
+      {
+        "columnFrom" : 237,
+        "columnTo" : 244,
+        "key": "effectiveDt",
+        "required": true,
+        "format": "YYYYMMDD"
+      },
+      {
+        "columnFrom" : 246,
+        "columnTo" : 253,
+        "key": "effectiveTo",
+        "format": "YYYYMMDD"
+      },
+      {
+        "columnFrom" : 255,
+        "columnTo" : 264,
+        "key": "currPrice",
+        "format": "^[+-]?(?:\\d{1,3}(?:,\\d{3})*|\\d+)(?:\\.\\d+)?$"
+      },
+      {
+        "columnFrom" : 266,
+        "columnTo" : 275,
+        "key": "newPrice",
+        "required": true,
+        "format": "^[+-]?(?:\\d{1,3}(?:,\\d{3})*|\\d+)(?:\\.\\d+)?$"
+      },
+      {
+        "columnFrom" : 277,
+        "columnTo" : 526,
+        "key": "remark"
+      },
+      {
+        "columnFrom" : 528,
+        "columnTo" : 535,
+        "key": "approveDt",
+        "required": true,
+        "format": "YYYYMMDD"
+      },
+      {
+        "columnFrom" : 537,
+        "columnTo" : 551,
+        "key": "steelCostNo",
+        "required": true
+      }         
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "fileNameFormat" : "^BF9034.*$",
+    "functionId": "BTRI3705",
+    "moduleId": "BTRI3",
+    "fromSystem": "PPMS",
+    "stagingTable":"TB_S_SPO_PRICE_CONF",
+    "type":"fixlength",
+    "header":{
+      "required":true
+    },
+    "footer":{
+      "required":true,
+      "format":"#T#"
+    },
+    "detailCount" : 516,
+    "detailRowIndex": 2,
+    "detail" : [
+      {
+        "columnFrom" : 1,
+        "columnTo" : 7,
+        "key": "recordId",
+        "required": true,
+        "isLineNo": true
+      }, 
+      {
+        "columnFrom" : 9,
+        "columnTo" : 23,
+        "key": "pdsNo",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 25,
+        "columnTo" : 34,
+        "key": "reqNo",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 36,
+        "columnTo" : 37,
+        "key": "revNo",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 39,
+        "columnTo" : 42,
+        "key": "carfamilyCd",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 44,
+        "columnTo" : 44,
+        "key": "customerPlantCd",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 46,
+        "columnTo" : 47,
+        "key": "customerDockCd",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 49,
+        "columnTo" : 52,
+        "key": "supplierCd",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 54,
+        "columnTo" : 54,
+        "key": "supplierPlantCd",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 56,
+        "columnTo" : 67,
+        "key": "partNo",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 69,
+        "columnTo" : 118,
+        "key": "partName"
+      }, 
+      {
+        "columnFrom" : 120,
+        "columnTo" : 122,
+        "key": "packingSpec"
+      }, 
+      {
+        "columnFrom" : 124,
+        "columnTo" : 130,
+        "key": "partQty",
+        "format": "^(0*[1-9]\\d*|0+)$",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 132,
+        "columnTo" : 139,
+        "key": "issuePdsDt",
+        "format": "YYYYMMDD",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 141,
+        "columnTo" : 152,
+        "key": "deliveryDt",
+        "format": "YYYYMMDDHHmm"
+      }, 
+      {
+        "columnFrom" : 154,
+        "columnTo" : 183,
+        "key": "requester"
+      }, 
+      {
+        "columnFrom" : 185,
+        "columnTo" : 192,
+        "key": "requestDt",
+        "format": "YYYYMMDD",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 194,
+        "columnTo" : 243,
+        "key": "contactInfo"
+      }, 
+      {
+        "columnFrom" : 245,
+        "columnTo" : 254,
+        "key": "telNo"
+      }, 
+      {
+        "columnFrom" : 256,
+        "columnTo" : 256,
+        "key": "cause",
+        "required": true
+      }, 
+      {
+        "columnFrom" : 258,
+        "columnTo" : 307,
+        "key": "purpose"
+      }, 
+      {
+        "columnFrom" : 309,
+        "columnTo" : 358,
+        "key": "remark1"
+      }, 
+      {
+        "columnFrom" : 360,
+        "columnTo" : 409,
+        "key": "remark2"
+      }, 
+      {
+        "columnFrom" : 411,
+        "columnTo" : 510,
+        "key": "rejectReason"
+      }, 
+      {
+        "columnFrom" : 512,
+        "columnTo" : 513,
+        "key": "status",
+        "in": ["01","07"],
+        "required": true
+      }, 
+      {
+        "columnFrom" : 515,
+        "columnTo" : 515,
+        "key": "partCategory",
+        "required": true
+      }
+    ]
+}

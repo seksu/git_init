@@ -1,0 +1,109 @@
+{
+    "fileNameFormat" : "^(SCMT040|SCMT050)_.*$",
+    "functionId": "BTRI5117",
+    "moduleId": "BTRI5",
+    "fromSystem": "PKG",
+    "stagingTable":"TB_S_PART_RECEIVE",
+    "type":"fixlength",
+    "header":{
+      "required":true
+    },
+    "footer":{
+      "required":true,
+      "format":"#T#"
+    },
+    "detailCount" : 323,
+    "detailRowIndex": 2,
+    "detail" : [
+      {
+        "columnFrom" : 9,
+        "columnTo" : 12,
+        "key": "supplierCd"
+      },
+      {
+        "columnFrom" : 14,
+        "columnTo" : 14,
+        "key": "supplierPlantCd"
+      },
+      {
+        "columnFrom" : 16,
+        "columnTo" : 16,
+        "key": "customerPlantCd"
+      },
+      {
+        "columnFrom" : 18,
+        "columnTo" : 19,
+        "key": "customerDockCd"
+      },
+      {
+        "columnFrom" : 21,
+        "columnTo" : 21,
+        "key": "orderType"
+      },
+      {
+        "columnFrom" : 23,
+        "columnTo" : 37,
+        "key": "pdsNo"
+      },
+      {
+        "columnFrom" : 39,
+        "columnTo" : 46,
+        "key": "receiveDt"
+      },
+      {
+        "columnFrom" : 48,
+        "columnTo" : 59,
+        "key": "partNo"
+      },
+      {
+        "columnFrom" : 61,
+        "columnTo" : 68,
+        "key": "seqDt"
+      },
+      {
+        "columnFrom" : 70,
+        "columnTo" : 79,
+        "key": "seqNo"
+      },
+      {
+        "columnFrom" : 81,
+        "columnTo" : 87,
+        "key": "receiveQty"
+      },
+      {
+        "columnFrom" : 119,
+        "columnTo" : 119,
+        "key": "priceFlag"
+      },
+      {
+        "columnFrom" : 121,
+        "columnTo" : 121,
+        "key": "supplierType"
+      },
+      {
+        "columnFrom" : 123,
+        "columnTo" : 123,
+        "key": "pdsPartialState"
+      },
+      {
+        "columnFrom" : 125,
+        "columnTo" : 125,
+        "key": "whtFlag"
+      },
+      {
+        "columnFrom" : 127,
+        "columnTo" : 127,
+        "key": "partCategoryCd"
+      },
+      {
+        "columnFrom" : 129,
+        "columnTo" : 131,
+        "key": "packingSpec"
+      },
+      {
+        "columnFrom" : 133,
+        "columnTo" : 133,
+        "key": "reasonCd"
+      }
+    ]
+}

@@ -1,0 +1,444 @@
+{
+  "fileNameFormat": "DTVYL001_DS554.dat",
+  "functionId": "DS554",
+  "moduleId": "DS554",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_MP_RFQ_TOOL_DT",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "RFQ_CAT"
+    },
+    {
+      "id": 2,
+      "detail": "RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "RFQ_NO"
+    },
+    {
+      "id": 3,
+      "detail": "Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "REV_NO"
+    },
+    {
+      "id": 4,
+      "detail": "Tooling Item Number",
+      "type": "NUM",
+      "length": 3,
+      "required": true,
+      "key": "TOOL_ITEM_NO"
+    },
+    {
+      "id": 5,
+      "detail": "Detail Total Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": true,
+      "key": "DETAIL_TOTAL_CAT"
+    },
+    {
+      "id": 6,
+      "detail": "Ref Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "REF_F"
+    },
+    {
+      "id": 7,
+      "detail": "Ref Asset Number",
+      "type": "CHAR",
+      "length": 15,
+      "required": false,
+      "key": "REF_ASSET_NO"
+    },
+    {
+      "id": 8,
+      "detail": "Ref Item",
+      "type": "CHAR",
+      "length": 30,
+      "required": false,
+      "key": "REF_ITEM"
+    },
+    {
+      "id": 9,
+      "detail": "Ref Tooling Description",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_TOOL_DESCRIPTION"
+    },
+    {
+      "id": 10,
+      "detail": "Ref Tooling QTY",
+      "type": "NUM",
+      "length": 4,
+      "required": false,
+      "key": "REF_TOOL_QTY"
+    },
+    {
+      "id": 11,
+      "detail": "Ref Tooling Cost per Tool",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_TOOL_COST_PER_TOOL"
+    },
+    {
+      "id": 12,
+      "detail": "Ref Number 1",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_1"
+    },
+    {
+      "id": 13,
+      "detail": "Ref Extended Tooling Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_EXTENDED_TOOL_COST"
+    },
+    {
+      "id": 14,
+      "detail": "Ref Number 2",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_2"
+    },
+    {
+      "id": 15,
+      "detail": "Ref Number 3",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_3"
+    },
+    {
+      "id": 16,
+      "detail": "Ref Number 4",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_4"
+    },
+    {
+      "id": 17,
+      "detail": "Ref Contents 1",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_1"
+    },
+    {
+      "id": 18,
+      "detail": "Ref Contents 2",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_2"
+    },
+    {
+      "id": 19,
+      "detail": "Ref Contents 3",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_3"
+    },
+    {
+      "id": 20,
+      "detail": "Ref Contents 4",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_4"
+    },
+    {
+      "id": 21,
+      "detail": "Ref Contents 5",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_5"
+    },
+    {
+      "id": 22,
+      "detail": "Ref Contents 6",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_6"
+    },
+    {
+      "id": 23,
+      "detail": "Ref Contents 7",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_7"
+    },
+    {
+      "id": 24,
+      "detail": "Ref Contents 8",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_8"
+    },
+    {
+      "id": 25,
+      "detail": "Dummy Asset Number Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "DUMMY_ASSET_NO_F"
+    },
+    {
+      "id": 26,
+      "detail": "Asset Number",
+      "type": "CHAR",
+      "length": 15,
+      "required": false,
+      "key": "ASSET_NO"
+    },
+    {
+      "id": 27,
+      "detail": "Item",
+      "type": "CHAR",
+      "length": 30,
+      "required": false,
+      "key": "ITEM"
+    },
+    {
+      "id": 28,
+      "detail": "Tooling Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "TOOL_CAT"
+    },
+    {
+      "id": 29,
+      "detail": "Tooling Description",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "TOOL_DESCRIPTION"
+    },
+    {
+      "id": 30,
+      "detail": "Tooling QTY",
+      "type": "NUM",
+      "length": 4,
+      "required": false,
+      "key": "TOOL_QTY"
+    },
+    {
+      "id": 31,
+      "detail": "Tooling Cost per Tool",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "TOOL_COST_PER_TOOL"
+    },
+    {
+      "id": 32,
+      "detail": "Number 1",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_1"
+    },
+    {
+      "id": 33,
+      "detail": "Paid in Proto Stage Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "PAID_IN_PROTO_STAGE_COST"
+    },
+    {
+      "id": 34,
+      "detail": "Extended Tooling Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "EXTENDED_TOOL_COST"
+    },
+    {
+      "id": 35,
+      "detail": "Number 2",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_2"
+    },
+    {
+      "id": 36,
+      "detail": "Number 3",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_3"
+    },
+    {
+      "id": 37,
+      "detail": "Number 4",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_4"
+    },
+    {
+      "id": 38,
+      "detail": "Contents 1",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_1"
+    },
+    {
+      "id": 39,
+      "detail": "Contents 2",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_2"
+    },
+    {
+      "id": 40,
+      "detail": "Contents 3",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_3"
+    },
+    {
+      "id": 41,
+      "detail": "Contents 4",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_4"
+    },
+    {
+      "id": 42,
+      "detail": "Contents 5",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_5"
+    },
+    {
+      "id": 43,
+      "detail": "Contents 6",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_6"
+    },
+    {
+      "id": 44,
+      "detail": "Contents 7",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_7"
+    },
+    {
+      "id": 45,
+      "detail": "Contents 8",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_8"
+    },
+    {
+      "id": 46,
+      "detail": "Agreed Variance Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "AGREED_VARIANCE_COST"
+    },
+    {
+      "id": 47,
+      "detail": "Quoted Variance Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "QUOTED_VARIANCE_COST"
+    },
+    {
+      "id": 48,
+      "detail": "Should be Variance Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "SHOULD_BE_VARIANCE_COST"
+    },
+    {
+      "id": 49,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 50,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 51,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 52,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

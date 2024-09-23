@@ -1,0 +1,51 @@
+stages:
+  - code compile
+  - unit test
+  - code scan
+  - image build
+  - image scan
+  - image push
+  - dev deployment
+  - sit deployment
+  - uat approval
+  - uat promote
+  - uat deployment
+  - preprod approval
+  - preprod promote
+  - preprod deployment
+  - prod approval
+  - prod promote
+  - prod deployment
+
+# This folder is cached between builds
+cache:
+  paths:
+    - node_modules/
+
+variables:
+  ## PROJECT_NAME and SERVICE_NAME cannot use underscore "_" test pipeline by norapatra
+  PROJECT_NAME: "trim-eosl" # Harbor repository name
+  SERVICE_PATH: "tdem"
+  SERVICE_NAME: "trim-psmr" # OpenShift service name
+  SERVICE_VERSION: "$CI_COMMIT_SHORT_SHA" # Service version using for tagging on Harbor
+  SOURCE_SCAN_PATH: "."
+  LATEST_TAG: "latest"
+  OCP_NAMESPACE_DEV: "tri-dev"
+  OCP_NAMESPACE_SIT: "tri-qa"
+  OCP_NAMESPACE_UAT: "tri-uat"
+  OCP_NAMESPACE_PREPROD: "tri-trial"
+  OCP_NAMESPACE_PROD: "tri-prod"
+
+# import templates from cicd template
+include:
+  - project: "tdem/modern-app/cicd-template"
+    ref: master
+    file: "/templates/env-5/nextjs-template-pipeline-v1.0.0.yml"
+  # import code scan, confidential scan and artifact scan from template
+  - project: "DevSecOps/cicd-template"
+    ref: master
+    file: "/templates/modern-std/template-pipeline-v1.0.0.yml"
+
+# override pipeline
+unit test:
+  allow_failure: true

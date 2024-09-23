@@ -1,0 +1,430 @@
+{
+  "fileNameFormat": "DTVYL001_DS048.dat",
+  "functionId": "DS048",
+  "moduleId": "DS048",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_PRD_RFQ_DT",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "RFQ_CAT"
+    },
+    {
+      "id": 2,
+      "detail": "RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "RFQ_NO"
+    },
+    {
+      "id": 3,
+      "detail": "Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "REV_NO"
+    },
+    {
+      "id": 4,
+      "detail": "Quotation Detail Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "QUOTATION_DETAIL_CAT"
+    },
+    {
+      "id": 5,
+      "detail": "Detail Total Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": true,
+      "key": "DETAIL_TOTAL_CAT"
+    },
+    {
+      "id": 6,
+      "detail": "Quotation Detail Number",
+      "type": "NUM",
+      "length": 3,
+      "required": true,
+      "key": "QUOTATION_DETAIL_NO"
+    },
+    {
+      "id": 7,
+      "detail": "Ref Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "REF_F"
+    },
+    {
+      "id": 8,
+      "detail": "Component Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "COMP_PART_NO"
+    },
+    {
+      "id": 9,
+      "detail": "Component Supply Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "COMP_SUPPLY_CAT"
+    },
+    {
+      "id": 10,
+      "detail": "Component Part Name",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "COMP_PART_NAME"
+    },
+    {
+      "id": 11,
+      "detail": "Quotation Detail Name",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "QUOTATION_DETAIL_NAME"
+    },
+    {
+      "id": 12,
+      "detail": "Quotation Detail Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "QUOTATION_DETAIL_COST"
+    },
+    {
+      "id": 13,
+      "detail": "Contents 1",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_1"
+    },
+    {
+      "id": 14,
+      "detail": "Contents 2",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "CONTENTS_2"
+    },
+    {
+      "id": 15,
+      "detail": "Number 1",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_1"
+    },
+    {
+      "id": 16,
+      "detail": "Number 2",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_2"
+    },
+    {
+      "id": 17,
+      "detail": "Number 3",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_3"
+    },
+    {
+      "id": 18,
+      "detail": "Number 4",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_4"
+    },
+    {
+      "id": 19,
+      "detail": "Number 5",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_5"
+    },
+    {
+      "id": 20,
+      "detail": "Number 6",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_6"
+    },
+    {
+      "id": 21,
+      "detail": "Number 7",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_7"
+    },
+    {
+      "id": 22,
+      "detail": "Number 8",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_8"
+    },
+    {
+      "id": 23,
+      "detail": "Number 9",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_9"
+    },
+    {
+      "id": 24,
+      "detail": "Number 10",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "NO_10"
+    },
+    {
+      "id": 25,
+      "detail": "Ref Component Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": false,
+      "key": "REF_COMP_PART_NO"
+    },
+    {
+      "id": 26,
+      "detail": "Ref Component Supply Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "REF_COMP_SUPPLY_CAT"
+    },
+    {
+      "id": 27,
+      "detail": "Ref Component Part Name",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "REF_COMP_PART_NAME"
+    },
+    {
+      "id": 28,
+      "detail": "Ref Quotation Detail Name",
+      "type": "CHAR",
+      "length": 40,
+      "required": false,
+      "key": "REF_QUOTATION_DETAIL_NAME"
+    },
+    {
+      "id": 29,
+      "detail": "Ref Quotation Detail Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_QUOTATION_DETAIL_COST"
+    },
+    {
+      "id": 30,
+      "detail": "Ref Contents 1",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_1"
+    },
+    {
+      "id": 31,
+      "detail": "Ref Contents 2",
+      "type": "CHAR",
+      "length": 50,
+      "required": false,
+      "key": "REF_CONTENTS_2"
+    },
+    {
+      "id": 32,
+      "detail": "Ref Number 1",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_1"
+    },
+    {
+      "id": 33,
+      "detail": "Ref Number 2",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_2"
+    },
+    {
+      "id": 34,
+      "detail": "Ref Number 3",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_3"
+    },
+    {
+      "id": 35,
+      "detail": "Ref Number 4",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_4"
+    },
+    {
+      "id": 36,
+      "detail": "Ref Number 5",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_5"
+    },
+    {
+      "id": 37,
+      "detail": "Ref Number 6",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_6"
+    },
+    {
+      "id": 38,
+      "detail": "Ref Number 7",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_7"
+    },
+    {
+      "id": 39,
+      "detail": "Ref Number 8",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_8"
+    },
+    {
+      "id": 40,
+      "detail": "Ref Number 9",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_9"
+    },
+    {
+      "id": 41,
+      "detail": "Ref Number 10",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "REF_NO_10"
+    },
+    {
+      "id": 42,
+      "detail": "Quotation Detail Difference Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "QUOTATION_DETAIL_DIF_COST"
+    },
+    {
+      "id": 43,
+      "detail": "Agreed Variance Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "AGREED_VARIANCE_COST"
+    },
+    {
+      "id": 44,
+      "detail": "Quoted Variance Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "QUOTED_VARIANCE_COST"
+    },
+    {
+      "id": 45,
+      "detail": "Should be Variance Cost",
+      "type": "NUM",
+      "precision": 4,
+      "length": 16,
+      "required": false,
+      "key": "SHOULD_BE_VARIANCE_COST"
+    },
+    {
+      "id": 46,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 47,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 48,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 49,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

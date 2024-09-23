@@ -1,0 +1,679 @@
+{
+  "fileNameFormat" : "DTVYL001_JS031.dat",
+  "functionId": "JS031",
+  "moduleId": "JS031",
+  "fromSystem": "PSMR",
+  "productionTable":"TB_M_COST_PLAN_DT",
+  "type":"fixlength",
+  "detail" : [
+    {
+      "id": 1,
+      "detail": "Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required":  true,
+      "key": "PART_NO"
+    },
+    {
+      "id": 2,
+      "detail": "Project Code",
+      "type": "CHAR",
+      "length": 5,
+      "required":  true,
+      "key": "PROJECT_CODE"
+    },
+    {
+      "id": 3,
+      "detail": "CFS Number",
+      "type": "CHAR",
+      "length": 8,
+      "required":  true,
+      "key": "CFS_NO"
+    },
+    {
+      "id": 4,
+      "detail": "Cost Planning Phase",
+      "type": "CHAR",
+      "length": 1,
+      "required":  true,
+      "key": "COST_PLAN_PHASE"
+    },
+    {
+      "id": 5,
+      "detail": "Cost Planning Step",
+      "type": "CHAR",
+      "length": 3,
+      "required":  true,
+      "key": "COST_PLAN_STEP"
+    },
+    {
+      "id": 6,
+      "detail": "Cost Planning Step Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required":  true,
+      "key": "COST_PLAN_STEP_REV_NO"
+    },
+    {
+      "id": 7,
+      "detail": "Previous Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required":  true,
+      "key": "PREVIOUS_F"
+    },
+    {
+      "id": 8,
+      "detail": "Old Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required":  false,
+      "key": "OLD_PART_NO"
+    },
+    {
+      "id": 9,
+      "detail": "Part Name",
+      "type": "CHAR",
+      "length": 40,
+      "required":  false,
+      "key": "PART_NAME"
+    },
+    {
+      "id": 10,
+      "detail": "Quantity Per Vehicle",
+      "type": "NUM",
+      "length": 4,
+      "required":  false,
+      "key": "QUANTITY_PER_VEHICLE"
+    },
+    {
+      "id": 11,
+      "detail": "Volume Per Month",
+      "type": "NUM",
+      "length": 9,
+      "required":  false,
+      "key": "VOLUME_PER_MONTH"
+    },
+    {
+      "id": 12,
+      "detail": "Req Attachmant Doc Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required":  false,
+      "key": "REQ_ATTACHMANT_DOC_F"
+    },
+    {
+      "id": 13,
+      "detail": "CFS Issue for Sub Component Falg",
+      "type": "CHAR",
+      "length": 1,
+      "required":  false,
+      "key": "CFS_ISSUE_FOR_SUB_COMP_FALG"
+    },
+    {
+      "id": 14,
+      "detail": "RSS Attached Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required":  false,
+      "key": "RSS_ATTACH_F"
+    },
+    {
+      "id": 15,
+      "detail": "Make or Buy",
+      "type": "CHAR",
+      "length": 1,
+      "required":  false,
+      "key": "MAKE_OR_BUY"
+    },
+    {
+      "id": 16,
+      "detail": "IMP LOC",
+      "type": "CHAR",
+      "length": 1,
+      "required":  false,
+      "key": "IMP_LOC"
+    },
+    {
+      "id": 17,
+      "detail": "Supplier Code",
+      "type": "CHAR",
+      "length": 5,
+      "required":  false,
+      "key": "SUPPLIER_CODE"
+    },
+    {
+      "id": 18,
+      "detail": "Supplier Name",
+      "type": "CHAR",
+      "length": 50,
+      "required":  false,
+      "key": "SUPPLIER_NAME"
+    },
+    {
+      "id": 19,
+      "detail": "New Part Number",
+      "type": "CHAR",
+      "length": 12,
+      "required":  false,
+      "key": "NEW_PART_NO"
+    },
+    {
+      "id": 20,
+      "detail": "RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required":  false,
+      "key": "RFQ_CAT"
+    },
+    {
+      "id": 21,
+      "detail": "RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required":  false,
+      "key": "RFQ_NO"
+    },
+    {
+      "id": 22,
+      "detail": "Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required":  false,
+      "key": "REV_NO"
+    },
+    {
+      "id": 23,
+      "detail": "CFS Attached Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required":  false,
+      "key": "CFS_ATTACH_F"
+    },
+    {
+      "id": 24,
+      "detail": "CFS Issue Date",
+      "type": "CHAR",
+      "length": 8,
+      "required":  false,
+      "key": "CFS_ISSUE_DATE"
+    },
+    {
+      "id": 25,
+      "detail": "CL Req Due Date",
+      "type": "CHAR",
+      "length": 8,
+      "required":  false,
+      "key": "CL_REQ_DUE_DATE"
+    },
+    {
+      "id": 26,
+      "detail": "Reply Date",
+      "type": "CHAR",
+      "length": 8,
+      "required":  false,
+      "key": "REPLY_DATE"
+    },
+    {
+      "id": 27,
+      "detail": "Price Target wo Piece Price w Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PRC_TARGET_WO_PIECE_PRC_W_TOOL"
+    },
+    {
+      "id": 28,
+      "detail": "Price Target wo Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PRC_TARGET_WO_PIECE_PRC"
+    },
+    {
+      "id": 29,
+      "detail": "Price Target wo Amort Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PRC_TARGET_WO_AMORT_TOOL"
+    },
+    {
+      "id": 30,
+      "detail": "Price Target wo Tooling Investment",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PRC_TARGET_WO_TOOL_INVEST"
+    },
+    {
+      "id": 31,
+      "detail": "Price Target w Piece Price w Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PRC_TARGET_W_PIECE_PRC_W_TOOL"
+    },
+    {
+      "id": 32,
+      "detail": "Price Target w Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PRC_TARGET_W_PIECE_PRC"
+    },
+    {
+      "id": 33,
+      "detail": "Price Target w Amort Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PRC_TARGET_W_AMORT_TOOL"
+    },
+    {
+      "id": 34,
+      "detail": "Price Target w Tooling Investment",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PRC_TARGET_W_TOOL_INVEST"
+    },
+    {
+      "id": 35,
+      "detail": "Quote Price Piece Price w Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "QUOTE_PRC_PIECE_PRC_W_TOOL"
+    },
+    {
+      "id": 36,
+      "detail": "Quote Price Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "QUOTE_PRC_PIECE_PRC"
+    },
+    {
+      "id": 37,
+      "detail": "Quote Price Amort Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "QUOTE_PRC_AMORT_TOOL"
+    },
+    {
+      "id": 38,
+      "detail": "Quote Price Tooling Investment",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "QUOTE_PRC_TOOL_INVEST"
+    },
+    {
+      "id": 39,
+      "detail": "Target Achievement Piece Price w Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "TARGET_ACHIEV_PIECE_PRC_W_TOOL"
+    },
+    {
+      "id": 40,
+      "detail": "Target Achievement Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "TARGET_ACHIEV_PIECE_PRC"
+    },
+    {
+      "id": 41,
+      "detail": "Target Achievement Amort Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "TARGET_ACHIEV_AMORT_TOOL"
+    },
+    {
+      "id": 42,
+      "detail": "Target Achievement Tooling Investment",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "TARGET_ACHIEV_TOOL_INVEST"
+    },
+    {
+      "id": 43,
+      "detail": "Basis of Supplier Decision",
+      "type": "CHAR",
+      "length": 300,
+      "required":  false,
+      "key": "BASIS_OF_SUPPLIER_DECISION"
+    },
+    {
+      "id": 44,
+      "detail": "Buyer Comment to GENKI",
+      "type": "CHAR",
+      "length": 300,
+      "required":  false,
+      "key": "BUYER_COMMENT_TO_GENKI"
+    },
+    {
+      "id": 45,
+      "detail": "Drawing No",
+      "type": "CHAR",
+      "length": 14,
+      "required":  false,
+      "key": "DRAWING_NO"
+    },
+    {
+      "id": 46,
+      "detail": "RDDP No",
+      "type": "CHAR",
+      "length": 10,
+      "required":  false,
+      "key": "RDDP_NO"
+    },
+    {
+      "id": 47,
+      "detail": "Sketch No",
+      "type": "CHAR",
+      "length": 24,
+      "required":  false,
+      "key": "SKETCH_NO"
+    },
+    {
+      "id": 48,
+      "detail": "Premised spec",
+      "type": "CHAR",
+      "length": 100,
+      "required":  false,
+      "key": "PREMISED_SPEC"
+    },
+    {
+      "id": 49,
+      "detail": "Material",
+      "type": "CHAR",
+      "length": 41,
+      "required":  false,
+      "key": "MATERIAL"
+    },
+    {
+      "id": 50,
+      "detail": "Thickness",
+      "type": "CHAR",
+      "length": 40,
+      "required":  false,
+      "key": "THICKNESS"
+    },
+    {
+      "id": 51,
+      "detail": "Weight",
+      "type": "NUM",
+      "precision": 2,
+      
+      
+      "length": 10,
+      "required":  false,
+      "key": "WEIGHT"
+    },
+    {
+      "id": 52,
+      "detail": "Surface per Heat Treatment",
+      "type": "CHAR",
+      "length": 100,
+      "required":  false,
+      "key": "SURFACE_PER_HEAT_TREATMENT"
+    },
+    {
+      "id": 53,
+      "detail": "dimension",
+      "type": "CHAR",
+      "length": 100,
+      "required":  false,
+      "key": "DIMENSION"
+    },
+    {
+      "id": 54,
+      "detail": "Similar Part",
+      "type": "CHAR",
+      "length": 12,
+      "required":  false,
+      "key": "SIMILAR_PART"
+    },
+    {
+      "id": 55,
+      "detail": "Difference",
+      "type": "CHAR",
+      "length": 100,
+      "required":  false,
+      "key": "DIF"
+    },
+    {
+      "id": 56,
+      "detail": "Explanation about V per M",
+      "type": "CHAR",
+      "length": 100,
+      "required":  false,
+      "key": "EXPLANATION_ABOUT_V_PER_M"
+    },
+    {
+      "id": 57,
+      "detail": "Basis of Target Part",
+      "type": "CHAR",
+      "length": 100,
+      "required":  false,
+      "key": "BASIS_OF_TARGET_PART"
+    },
+    {
+      "id": 58,
+      "detail": "Basis of Target Tooling",
+      "type": "CHAR",
+      "length": 100,
+      "required":  false,
+      "key": "BASIS_OF_TARGET_TOOL"
+    },
+    {
+      "id": 59,
+      "detail": "Piece Price w Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PIECE_PRC_W_TOOL"
+    },
+    {
+      "id": 60,
+      "detail": "Piece Price",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PIECE_PRC"
+    },
+    {
+      "id": 61,
+      "detail": "Amort Tooling",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "AMORT_TOOL"
+    },
+    {
+      "id": 62,
+      "detail": "Tooling Investment",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "TOOL_INVEST"
+    },
+    {
+      "id": 63,
+      "detail": "Material Cost",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "MATERIAL_COST"
+    },
+    {
+      "id": 64,
+      "detail": "Processing Cost",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "PROCESSING_COST"
+    },
+    {
+      "id": 65,
+      "detail": "Overhead SG AND A",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "OVERHEAD_SG_AND_A"
+    },
+    {
+      "id": 66,
+      "detail": "Issued to GENKI Date",
+      "type": "CHAR",
+      "length": 8,
+      "required":  false,
+      "key": "ISSUED_TO_GENKI_DATE"
+    },
+    {
+      "id": 67,
+      "detail": "Adoption Date",
+      "type": "CHAR",
+      "length": 8,
+      "required":  false,
+      "key": "ADOPTION_DATE"
+    },
+    {
+      "id": 68,
+      "detail": "Achieved",
+      "type": "NUM",
+      "precision": 4,
+      
+      
+      "length": 16,
+      "required":  false,
+      "key": "ACHIEVED"
+    },
+    {
+      "id": 69,
+      "detail": "Eng Comment Date",
+      "type": "CHAR",
+      "length": 8,
+      "required":  false,
+      "key": "ENG_COMMENT_DATE"
+    },
+    {
+      "id": 70,
+      "detail": "Eng Comment",
+      "type": "CHAR",
+      "length": 240,
+      "required":  false,
+      "key": "ENG_COMMENT"
+    },
+    {
+      "id": 71,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required":  false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 72,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required":  false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 73,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required":  false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 74,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required":  false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}

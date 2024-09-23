@@ -1,0 +1,56 @@
+{
+  "fileNameFormat" : "^LN00112_.*$",
+  "functionId": "BTRI2302",
+  "moduleId": "BTRI2",
+  "fromSystem": "TOPAS",
+  "stagingTable":"TB_S_PART_SUP",
+  "type":"fixlength",
+  "header":{
+    "required":true
+  },
+  "footer":{
+    "required":true,
+    "format":"#T#"
+  },
+  "detailCount" : 103,
+  "detailRowIndex": 2,
+  "detail" : [
+    {
+      "columnFrom" : 1,
+      "columnTo" : 7,
+      "key": "recordId",
+      "required":true,
+      "isLineNo": true
+    },
+    {
+      "columnFrom" : 9,
+      "columnTo" : 23,
+      "key": "partNo",
+      "required":true
+    },
+    {
+      "columnFrom" : 25,
+      "columnTo" : 64,
+      "key": "partName",
+      "required":true
+    },
+    {
+      "columnFrom" : 66,
+      "columnTo" : 69,
+      "key": "supplierCd",
+      "required":true
+    },
+    {
+      "columnFrom" : 71,
+      "columnTo" : 71,
+      "key": "supplierPlantCd",
+      "required":true
+    },
+    {
+      "columnFrom" : 73,
+      "columnTo" : 102,
+      "key": "buyerName",
+      "required":true
+    }
+  ]
+}

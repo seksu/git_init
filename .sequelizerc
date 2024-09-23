@@ -1,0 +1,9 @@
+const path = require('path');
+
+module.exports = {
+  config: path.resolve('./migrations/db.config.js'),
+  'models-path': path.resolve('./dist/models'),
+  'seeders-path': path.resolve('./migrations/seeds'),
+  'migrations-path': path.resolve('./migrations/schemas'),
+};
+

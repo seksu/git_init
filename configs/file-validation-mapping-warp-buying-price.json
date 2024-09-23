@@ -1,0 +1,345 @@
+{
+  "fileNameFormat" : "^GBF3TW66.DTW66001.X0000001.*$",
+  "functionId": "BTRI3101",
+  "moduleId": "BTRI3",
+  "processName": "Buying Price Auto Receiving from WARP",
+  "datasource": "WARP",
+  "limitReadFile": 1000,
+  "stagingTable":"TB_S_BYG_PRICE",
+  "dataFormat" : [
+    {
+      "header": {
+        "rowsCount": 1,
+        "mapping": [
+          {
+            "key": "headerIdentifier",
+            "row": 1,
+            "columnFrom" : 3,
+            "columnTo" : 3,
+            "type": "string",
+            "required": true,
+            "equals": "H"
+          },
+          {
+            "key": "headerDesc",
+            "row": 1,
+            "columnFrom" : 12,
+            "columnTo" : 19,
+            "type": "string",
+            "required": true,
+            "equals": "LBGBTW66"
+          }
+        ]
+      },
+    
+      "content": {
+        "mapping": [
+          {
+            "columnFrom" : 1,
+            "columnTo" : 15,
+            "field": "handlingSeqNo"
+          },
+          {
+            "columnFrom" : 16,
+            "columnTo" : 16,
+            "field": "purchasingItem"
+          },
+          {
+            "columnFrom" : 17,
+            "columnTo" : 17,
+            "field": "partCategoryCd",
+            "required": true
+          },
+          {
+            "columnFrom" : 18,
+            "columnTo" : 27,
+            "field": "partNo"
+          },
+          {
+            "columnFrom" : 18,
+            "columnTo" : 27,
+            "field": "partNo10",
+            "required": true
+          },
+          {
+            "columnFrom" : 28,
+            "columnTo" : 67,
+            "field": "partName"
+          },
+          {
+            "columnFrom" : 68,
+            "columnTo" : 69,
+            "field": "namcCd"
+          },
+          {
+            "columnFrom" : 70,
+            "columnTo" : 73,
+            "field": "supplierCd",
+            "required": true
+          },
+          {
+            "columnFrom" : 74,
+            "columnTo" : 74,
+            "field": "supplierPlantCd",
+            "required": true
+          },
+          {
+            "columnFrom" : 75,
+            "columnTo" : 76,
+            "field": "psPackingCd"
+          },
+          {
+            "columnFrom" : 77,
+            "columnTo" : 78,
+            "field": "colorCd"
+          },
+          {
+            "columnFrom" : 79,
+            "columnTo" : 83,
+            "field": "localCommodityCd"
+          },
+          {
+            "columnFrom" : 84,
+            "columnTo" : 88,
+            "field": "buyerCd",
+            "required": true
+          },
+          {
+            "columnFrom" : 89,
+            "columnTo" : 118,
+            "field": "employeeName"
+          },
+          {
+            "columnFrom" : 119,
+            "columnTo" : 123,
+            "field": "unitOfMeasure"
+          },
+          {
+            "columnFrom" : 124,
+            "columnTo" : 124,
+            "field": "classification"
+          },
+          {
+            "columnFrom" : 125,
+            "columnTo" : 126,
+            "field": "minorCd"
+          },
+          {
+            "columnFrom" : 127,
+            "columnTo" : 142,
+            "field": "unitPrice"
+          },
+          {
+            "columnFrom" : 143,
+            "columnTo" : 150,
+            "field": "sentPiecePoDt"
+          },
+          {
+            "columnFrom" : 151,
+            "columnTo" : 158,
+            "field": "effectiveDt",
+            "required": true
+          },
+          {
+            "columnFrom" : 159,
+            "columnTo" : 166,
+            "field": "expiredDt"
+          },
+          {
+            "columnFrom" : 167,
+            "columnTo" : 169,
+            "field": "currCategory"
+          },
+          {
+            "columnFrom" : 170,
+            "columnTo" : 170,
+            "field": "pricingReasonCd"
+          },
+          {
+            "columnFrom" : 171,
+            "columnTo" : 171,
+            "field": "detailPriceCategory",
+            "required": true
+          },
+          {
+            "columnFrom" : 172,
+            "columnTo" : 174,
+            "field": "detailPriceCd",
+            "required": true
+          },
+          {
+            "columnFrom" : 175,
+            "columnTo" : 190,
+            "field": "detailPrice"
+          },
+          {
+            "columnFrom" : 191,
+            "columnTo" : 210,
+            "field": "detailComment"
+          },
+          {
+            "columnFrom" : 211,
+            "columnTo" : 219,
+            "field": "eciNo"
+          },
+          {
+            "columnFrom" : 220,
+            "columnTo" : 227,
+            "field": "poNo"
+          },
+          {
+            "columnFrom" : 228,
+            "columnTo" : 231,
+            "field": "poRevisionNo"
+          },
+          {
+            "columnFrom" : 232,
+            "columnTo" : 486,
+            "field": "poComment"
+          },
+          {
+            "columnFrom" : 487,
+            "columnTo" : 506,
+            "field": "pymtTerm"
+          },
+          {
+            "columnFrom" : 507,
+            "columnTo" : 526,
+            "field": "freightTermCategory"
+          },
+          {
+            "columnFrom" : 527,
+            "columnTo" : 546,
+            "field": "fobCategory"
+          },
+          {
+            "columnFrom" : 547,
+            "columnTo" : 566,
+            "field": "shipViaCategory"
+          },
+          {
+            "columnFrom" : 567,
+            "columnTo" : 586,
+            "field": "taxStatus"
+          },
+          {
+            "columnFrom" : 587,
+            "columnTo" : 589,
+            "field": "personCd"
+          },
+          {
+            "columnFrom" : 590,
+            "columnTo" : 595,
+            "field": "personTitleName"
+          },
+          {
+            "columnFrom" : 596,
+            "columnTo" : 610,
+            "field": "personFirstName"
+          },
+          {
+            "columnFrom" : 611,
+            "columnTo" : 625,
+            "field": "personFamilyName"
+          },
+          {
+            "columnFrom" : 626,
+            "columnTo" : 665,
+            "field": "salesContactAddr1"
+          },
+          {
+            "columnFrom" : 666,
+            "columnTo" : 705,
+            "field": "salesContactAddr2"
+          },
+          {
+            "columnFrom" : 706,
+            "columnTo" : 745,
+            "field": "salesContactAddr3"
+          },
+          {
+            "columnFrom" : 746,
+            "columnTo" : 785,
+            "field": "salesContactCity"
+          },
+          {
+            "columnFrom" : 786,
+            "columnTo" : 825,
+            "field": "salesContactState"
+          },
+          {
+            "columnFrom" : 826,
+            "columnTo" : 845,
+            "field": "salesContactZip"
+          },
+          {
+            "columnFrom" : 846,
+            "columnTo" : 870,
+            "field": "salesContactCountry"
+          },
+          {
+            "columnFrom" : 871,
+            "columnTo" : 900,
+            "field": "supplierName"
+          },
+          {
+            "columnFrom" : 901,
+            "columnTo" : 920,
+            "field": "supplierName2"
+          },
+          {
+            "columnFrom" : 921,
+            "columnTo" : 921,
+            "field": "supplierInterfaceMethod"
+          },
+          {
+            "columnFrom" : 922,
+            "columnTo" : 922,
+            "field": "transmissionStatusCategory"
+          },
+          {
+            "columnFrom" : 923,
+            "columnTo" : 930,
+            "field": "addDt"
+          },
+          {
+            "columnFrom" : 936,
+            "columnTo" : 943,
+            "field": "updatedDt"
+          },
+          {
+            "columnFrom" : 944,
+            "columnTo" : 948,
+            "field": "updatingUserCd"
+          }
+        ]
+      },
+
+      "footer": {
+        "rowsCount": 0,
+        "mapping": []
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

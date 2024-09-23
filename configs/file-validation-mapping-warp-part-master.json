@@ -1,0 +1,74 @@
+{
+    "fileNameFormat" : "^WRP0010_.*_D$",
+    "functionId": "BTRI2301",
+    "moduleId": "BTRI2",
+    "datasource": "WARP",
+    "limitReadFile": 1000,
+    "limitReadDatabase": 1000,
+    "basicValidateEmailList": [],
+    "businessValidateEmailList": [],
+    "stagingTable":"TB_S_PART_STATUS",
+    "dataFormat" : [
+      {
+        "header": {
+          "rowsCount": 0,
+          "mapping": []
+        },
+        "content": {
+          "mapping": [
+            {
+              "columnFrom" : 1,
+              "columnTo" : 12,
+              "field": "partNo",
+              "required": true
+            },
+            {
+              "columnFrom" : 13,
+              "columnTo" : 17,
+              "field": "projectCd",
+              "required": true
+            },									
+            {
+              "columnFrom" : 18,
+              "columnTo" : 21,
+              "field": "supplierCd",
+              "required": true
+            },
+            {
+              "columnFrom" : 22,
+              "columnTo" : 22,
+              "field": "supplierPlantCd",
+              "required": true
+            },
+            {
+              "columnFrom" : 23,
+              "columnTo" : 24,
+              "field": "namcCd"
+            },
+            {
+              "columnFrom" : 91,
+              "columnTo" : 95,
+              "field": "buyerCd",
+              "required": true
+            },
+            {
+              "columnFrom" : 827,
+              "columnTo" : 834,
+              "field": "abolitionDt"
+            },
+            {
+              "columnFrom" : 835,
+              "columnTo" : 835,
+              "field": "activeInactive"
+            }
+          ]
+        },
+      
+        "footer": {
+          "rowsCount": 0,
+          "mapping": []
+        }
+      }
+    ]
+  }
+  

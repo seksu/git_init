@@ -1,0 +1,100 @@
+{
+  "fileNameFormat": "DTVYL001_DS032.dat",
+  "functionId": "DS032",
+  "moduleId": "DS032",
+  "fromSystem": "PSMR",
+  "productionTable": "TB_M_SRC_RFQ_SUP",
+  "type": "fixlength",
+  "detail": [
+    {
+      "id": 1,
+      "detail": "RFQ Category",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "RFQ_CAT"
+    },
+    {
+      "id": 2,
+      "detail": "RFQ Number",
+      "type": "CHAR",
+      "length": 12,
+      "required": true,
+      "key": "RFQ_NO"
+    },
+    {
+      "id": 3,
+      "detail": "Revision Number",
+      "type": "NUM",
+      "length": 2,
+      "required": true,
+      "key": "REV_NO"
+    },
+    {
+      "id": 4,
+      "detail": "NAMC Code",
+      "type": "CHAR",
+      "length": 2,
+      "required": true,
+      "key": "NAMC_CODE"
+    },
+    {
+      "id": 5,
+      "detail": "Supplier Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": true,
+      "key": "SUPPLIER_CODE"
+    },
+    {
+      "id": 6,
+      "detail": "Supplier Selection Flag",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "SUPPLIER_SELECTION_F"
+    },
+    {
+      "id": 7,
+      "detail": "Issued Letter Category",
+      "type": "CHAR",
+      "length": 1,
+      "required": false,
+      "key": "ISSUED_LETTER_CAT"
+    },
+    {
+      "id": 8,
+      "detail": "Added Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "ADDED_DATE"
+    },
+    {
+      "id": 9,
+      "detail": "Adding User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "ADDING_USER_CODE"
+    },
+    {
+      "id": 10,
+      "detail": "Updated Date",
+      "type": "DATE",
+      "dateFormat": "YYYYMMDD",
+      "length": 8,
+      "required": false,
+      "key": "UPDATED_DATE"
+    },
+    {
+      "id": 11,
+      "detail": "Updating User Code",
+      "type": "CHAR",
+      "length": 5,
+      "required": false,
+      "key": "UPDATING_USER_CODE"
+    }
+  ]
+}
